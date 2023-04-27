@@ -1,0 +1,35 @@
+{
+    "city":"<class 'str'>",
+    "data":[
+        {
+            "id":"78119323",
+            "name":"Tru by Hilton Port St. Lucie Tradition",
+            "image":"https://images.trvl-media.com/lodging/79000000/78120000/78119400/78119323/54b71dfd.jpg?impolicy=resizecrop&rw=455&ra=fit",
+            "price":"$847 total"
+        },
+        {
+            "id":"2244228",
+            "name":"Fairfield Inn & Suites by Marriott Fort Pierce",
+            "image":"https://images.trvl-media.com/lodging/3000000/2250000/2244300/2244228/0e8ed5d4.jpg?impolicy=resizecrop&rw=455&ra=fit",
+            "price":"$872 total"
+        },
+        {
+            "id":"2211950",
+            "name":"Hampton Inn & Suites Stuart-North",
+            "image":"https://images.trvl-media.com/lodging/3000000/2220000/2212000/2211950/e8516f66.jpg?impolicy=resizecrop&rw=455&ra=fit",
+            "price":"$877 total"
+        },
+        {
+            "id":"1573802",
+            "name":"Hampton Inn & Suites Ft. Pierce",
+            "image":"https://images.trvl-media.com/lodging/2000000/1580000/1573900/1573802/223e4beb.jpg?impolicy=resizecrop&rw=455&ra=fit",
+            "price":"$895 total"
+        },
+        {
+            "id":"2466823",
+            "name":"Holiday Inn Express & Suites Port St. Lucie West, an IHG Hotel",
+            "image":"https://images.trvl-media.com/lodging/3000000/2470000/2466900/2466823/76cfd70a.jpg?impolicy=resizecrop&rw=455&ra=fit",
+            "price":"$899 total"
+        }
+    ]
+}

@@ -1,0 +1,297 @@
+{
+    "q": "10",
+    "rid": "f5f8dad7418d4a3d816a9b1b35a33239",
+    "rc": "OK",
+    "sr": [
+        {
+            "@type": "gaiaRegionResult",
+            "index": "0",
+            "gaiaId": "6123647",
+            "type": "CITY",
+            "regionNames": {
+                "fullName": "6th of October City, Giza Governorate, Egypt",
+                "shortName": "6th of October City",
+                "displayName": "6th of October City, Giza Governorate, Egypt",
+                "primaryDisplayName": "6th of October City",
+                "secondaryDisplayName": "Giza Governorate, Egypt",
+                "lastSearchName": "6th of October City"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "6123647"
+            },
+            "coordinates": {
+                "lat": "29.928544",
+                "long": "30.91878"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "Egypt",
+                    "isoCode2": "EG",
+                    "isoCode3": "EGY"
+                }
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "1",
+            "gaiaId": "6072011",
+            "type": "POI",
+            "regionNames": {
+                "fullName": "Centennial Olympic Park, Atlanta, Atlanta, Georgia, United States of America",
+                "shortName": "Centennial Olympic Park",
+                "displayName": "Centennial Olympic Park, Atlanta, Atlanta, Georgia, United States",
+                "primaryDisplayName": "Centennial Olympic Park",
+                "secondaryDisplayName": "Atlanta, Atlanta, Georgia, United States",
+                "lastSearchName": "Centennial Olympic Park"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "6072011"
+            },
+            "coordinates": {
+                "lat": "33.759778",
+                "long": "-84.393397"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "United States",
+                    "isoCode2": "US",
+                    "isoCode3": "USA"
+                }
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "2",
+            "gaiaId": "553248633981714286",
+            "type": "NEIGHBORHOOD",
+            "regionNames": {
+                "fullName": "Zona 10, Guatemala City, Guatemala Department, Guatemala",
+                "shortName": "Zona 10",
+                "displayName": "Zona 10, Guatemala City, Guatemala Department, Guatemala",
+                "primaryDisplayName": "Zona 10",
+                "secondaryDisplayName": "Guatemala City, Guatemala Department, Guatemala",
+                "lastSearchName": "Zona 10"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "553248633981714286"
+            },
+            "coordinates": {
+                "lat": "14.597035",
+                "long": "-90.504524"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "Guatemala",
+                    "isoCode2": "GT",
+                    "isoCode3": "GTM"
+                }
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "3",
+            "gaiaId": "6300171",
+            "type": "POI",
+            "regionNames": {
+                "fullName": "1000 Islands Tower, Leeds and the Thousand Islands, Ontario, Canada",
+                "shortName": "1000 Islands Tower",
+                "displayName": "1000 Islands Tower, Leeds and the Thousand Islands, Ontario, Canada",
+                "primaryDisplayName": "1000 Islands Tower",
+                "secondaryDisplayName": "Leeds and the Thousand Islands, Ontario, Canada",
+                "lastSearchName": "1000 Islands Tower"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "6300171"
+            },
+            "coordinates": {
+                "lat": "44.352633",
+                "long": "-75.979869"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "Canada",
+                    "isoCode2": "CA",
+                    "isoCode3": "CAN"
+                }
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "4",
+            "gaiaId": "177748",
+            "type": "CITY",
+            "regionNames": {
+                "fullName": "108 Mile Ranch, British Columbia, Canada",
+                "shortName": "108 Mile Ranch",
+                "displayName": "108 Mile Ranch, British Columbia, Canada",
+                "primaryDisplayName": "108 Mile Ranch",
+                "secondaryDisplayName": "British Columbia, Canada",
+                "lastSearchName": "108 Mile Ranch"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "177748"
+            },
+            "coordinates": {
+                "lat": "51.75113",
+                "long": "-121.34845"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "Canada",
+                    "isoCode2": "CA",
+                    "isoCode3": "CAN"
+                }
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "5",
+            "gaiaId": "6058290",
+            "type": "CITY",
+            "regionNames": {
+                "fullName": "100 Mile House, British Columbia, Canada",
+                "shortName": "100 Mile House",
+                "displayName": "100 Mile House, British Columbia, Canada",
+                "primaryDisplayName": "100 Mile House",
+                "secondaryDisplayName": "British Columbia, Canada",
+                "lastSearchName": "100 Mile House"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "6058290"
+            },
+            "coordinates": {
+                "lat": "51.643976",
+                "long": "-121.295018"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "Canada",
+                    "isoCode2": "CA",
+                    "isoCode3": "CAN"
+                }
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "6",
+            "gaiaId": "6291936",
+            "type": "POI",
+            "regionNames": {
+                "fullName": "1000 Islands Mall, Brockville, Ontario, Canada",
+                "shortName": "1000 Islands Mall",
+                "displayName": "1000 Islands Mall, Brockville, Ontario, Canada",
+                "primaryDisplayName": "1000 Islands Mall",
+                "secondaryDisplayName": "Brockville, Ontario, Canada",
+                "lastSearchName": "1000 Islands Mall"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "6291936"
+            },
+            "coordinates": {
+                "lat": "44.60292063061955",
+                "long": "-75.6987653992967"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "Canada",
+                    "isoCode2": "CA",
+                    "isoCode3": "CAN"
+                }
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "7",
+            "gaiaId": "553248621532665118",
+            "type": "POI",
+            "regionNames": {
+                "fullName": "1000 Islands River Rat Cheese, Clayton, New York, United States of America",
+                "shortName": "1000 Islands River Rat Cheese",
+                "displayName": "1000 Islands River Rat Cheese, Clayton, New York, United States",
+                "primaryDisplayName": "1000 Islands River Rat Cheese",
+                "secondaryDisplayName": "Clayton, New York, United States",
+                "lastSearchName": "1000 Islands River Rat Cheese"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "553248621532665118"
+            },
+            "coordinates": {
+                "lat": "44.240883",
+                "long": "-76.088664"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "United States",
+                    "isoCode2": "US",
+                    "isoCode3": "USA"
+                }
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "8",
+            "gaiaId": "6187881",
+            "type": "NEIGHBORHOOD",
+            "regionNames": {
+                "fullName": "10th Arrondissement, Paris, France",
+                "shortName": "10th Arrondissement",
+                "displayName": "10th Arrondissement, Paris, France",
+                "primaryDisplayName": "10th Arrondissement",
+                "secondaryDisplayName": "Paris, France",
+                "lastSearchName": "10th Arrondissement"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "6187881"
+            },
+            "coordinates": {
+                "lat": "48.876126",
+                "long": "2.359839"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "France",
+                    "isoCode2": "FR",
+                    "isoCode3": "FRA"
+                }
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "9",
+            "gaiaId": "6087107",
+            "type": "POI",
+            "regionNames": {
+                "fullName": "Trees of Mystery, Klamath, California, United States of America",
+                "shortName": "Trees of Mystery",
+                "displayName": "Trees of Mystery, Klamath, California, United States",
+                "primaryDisplayName": "Trees of Mystery",
+                "secondaryDisplayName": "Klamath, California, United States",
+                "lastSearchName": "Trees of Mystery"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "6087107"
+            },
+            "coordinates": {
+                "lat": "41.584571",
+                "long": "-124.085918"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "United States",
+                    "isoCode2": "US",
+                    "isoCode3": "USA"
+                }
+            }
+        }
+    ]
+}
