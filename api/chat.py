@@ -1,56 +1,33 @@
-import requests
-import json
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telebot.types import Message
 
-# Замените YOUR_RAPIDAPI_KEY на ваш ключ API сервиса Hotels на RapidAPI
-RAPIDAPI_KEY = "YOUR_RAPIDAPI_KEY"
+from loader import bot
+from states.contact_information import CityInformation
 
-# Функция для отправки запроса к API сервиса Hotels
-def api_request(method_endswith, params, method_type):
-    url = f"https://hotels4.p.rapidapi.com/{method_endswith}"
-    headers = {
-        "X-RapidAPI-Host": "hotels4.p.rapidapi.com",
-        "X-RapidAPI-Key": RAPIDAPI_KEY,
-    }
-    try:
-        response = requests.request(method_type, url, headers=headers, params=params, timeout=15)
-        response.raise_for_status()
-        return response.json()
-    except requests.exceptions.HTTPError as http_error:
-        print(f"HTTP error occurred: {http_error}")
-        return None
-    except Exception as e:
-        print(f"Error occurred: {e}")
-        return None
 
-# Обработчик команды /start
-def start(update, context):
-    context.bot.send_message(chat_id=update.effective_chat.id, text="Привет! Я бот, который поможет найти отели в нужном городе. Введите название города, например: Рига")
+@bot.message_handler(state=CityInformation.id_city)
+def get_property_id(message: Message, gaia_id=str, city_search=str, city_count_search=int) -> None:
+    """Получение ID Отеля"""
+    with bot.retrieve_data(message.from_user.id, message.chat.id) as data:
+        data["id_city"] = message.text
+        # запрашиваем у пользователя количество отелей, которое он хочет получить
+        bot.send_message(message.from_user.id, "Сколько отелей вы хотите получить?")
+        # меняем состояние пользователя на ожидание ввода количества отелей
+        bot.set_state(message.from_user.id, CityInformation.hotel_count, message.chat.id)
 
-# Обработчик сообщений
-def search_hotels(update, context):
-    try:
-        city_name = update.message.text
-        params = {
-            "query": city_name,
-            "locale": "ru_RU",
-            "adults1": 1,
-            "pageNumber": 1
-        }
-        search_results = api_request("locations/v1/search", params, "GET")
-        if search_results is None:
-            context.bot.send_message(chat_id=update.effective_chat.id, text="К сожалению, не удалось найти информацию о городе. Попробуйте еще раз.")
-            return
-        location_id = search_results["suggestions"][0]["entities"][0]["destinationId"]
-        params = {
-            "destinationId": location_id,
-            "pageSize": 5,
-            "adults1": 1,
-            "pageNumber": 1
-        }
-        properties_results = api_request("properties/v2/list", params, "GET")
-        if properties_results is None:
-            context.bot.send_message(chat_id=update.effective_chat.id, text="К сожалению, не удалось найти отели в данном городе. Попробуйте еще раз.")
-            return
-        hotels = properties_results["data"]["body"]["searchResults"]["results"]
-        if not hotels
+@bot.message_handler(state=CityInformation.hotel_count)
+def get_hotel_count(message: Message) -> None:
+    """Получение количества отелей"""
+    with bot.retrieve_data(message.from_user.id, message.chat.id) as data:
+        data["hotel_count"] = int(message.text)
+    bot.set_state(message.from_user.id, CityInformation.hotel_count, message.chat.id)
+    # здесь вы можете добавить код для выполнения запроса на API отелей, используя
+    # количество отелей, которое ввел пользователь, например:
+    # ...
+    # "resultsSize": data["hotel_count"],
+    # ...
+    # после этого, вы можете продолжить реализацию функции, например:
+    # ...
+    # response = requests.request("POST", url, json=payload, headers=headers)
+    # print(response.status_code)
+    # data = response.json()
+    # ...

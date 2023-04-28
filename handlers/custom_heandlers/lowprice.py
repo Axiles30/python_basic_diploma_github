@@ -1,12 +1,10 @@
 import json
 import os
 import requests
+from telebot.types import Message, CallbackQuery, logger
 from loader import bot
-from states.contact_information import UserInfoState, CityInformation
-from telebot.types import Message, ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton, KeyboardButton, \
-    CallbackQuery
-from handlers.default_heandlers.start import send_welcome
-
+from states.contact_information import CityInformation
+import logging
 """
 Команда /low
 После ввода команды у пользователя запрашивается:
@@ -15,6 +13,9 @@ from handlers.default_heandlers.start import send_welcome
 2. Количество единиц категории (товаров/услуг), которое необходимо вывести (не
 больше программно определённого максимума).
 """
+
+# logger.add("app.log", rotation="500 MB", compression="zip", enqueue=True)
+logging.basicConfig(filename='logisy/app.log', level=logging.DEBUG)
 
 
 @bot.callback_query_handler(func=lambda call: call.data == 'lowprice')
@@ -26,25 +27,28 @@ def city(message: Message) -> None:
     """Получение города от пользователя"""
     bot.send_message(message.chat.id, f'Привет, {message.chat.username} в каком городе будем искать отели?')
     bot.set_state(message.chat.id, CityInformation.city, message.chat.id)
-    bot.register_next_step_handler(message, city_count)
+    # bot.register_next_step_handler(message, city_count)
 
     
-def city_count(message: Message) -> int:
-    """Получение количество городов от пользователя"""
-    bot.send_message(message.chat.id, f'Сколько отелей вы хотите увидеть?')
-    bot.set_state(message.chat.id, CityInformation.city_count, message.chat.id)
-    bot.register_next_step_handler(message, get_city_count)
-@bot.message_handler(state=CityInformation.city_count)
-def get_city_count(message: Message) -> int:
+# def hotel_count(message: Message) -> None:
+#     """Получение количество городов от пользователя"""
+#     bot.send_message(message.chat.id, f'Сколько отелей вы хотите увидеть?')
+#     bot.set_state(message.chat.id, CityInformation.hotel_count, message.chat.id)
+#     bot.register_next_step_handler(message, get_hotel_count)
+@bot.message_handler(state=CityInformation.hotel_count)
+def get_hotel_count(message: Message) -> None:
     with bot.retrieve_data(message.from_user.id, message.chat.id) as data:
-        data['city_count'] = message.text
-        city_count_search = data['city_count']
-        city_count_search = int(city_count_search)
-
-    print("data['city_count']",data['city_count'])
+        data['hotel_count'] = int(message.text)
+        hotel_count_search = data['hotel_count']
+        # hotel_count_search = int(hotel_count_search)
+    # bot.set_state(message.from_user.id, CityInformation.hotel_count, message.chat.id)
+    print('Строка 45: ',hotel_count_search)
+    print('Строка 46: ',type(hotel_count_search))
+    print('Строка 47: ',"data['hotel_count']",data['hotel_count'])
+    logging.debug(data['hotel_count'])
     # print(type(city_count_search))
-    get_property_id(message, city_count_search)
-    bot.register_next_step_handler(message, get_id_city)
+    # get_property_id(message, hotel_count_search)
+    # bot.register_next_step_handler(message, get_id_city)
 
 
 @bot.message_handler(state=CityInformation.city)
@@ -56,6 +60,7 @@ def get_id_city(message: Message) -> None:
     bot.send_message(message.from_user.id, f'Произвожу поиск в городе: {message.text}')
     bot.set_state(message.from_user.id, CityInformation.city, message.chat.id)
     print(data['city'])
+    logging.debug(data['city'])
     with bot.retrieve_data(message.from_user.id, message.chat.id) as data:
         url = "https://hotels4.p.rapidapi.com/locations/v3/search"
         querystring = {"q" : f"{data['city']}","locale":"en_US", "langid" : "1033", "siteid" : "300000001"}
@@ -78,19 +83,22 @@ def get_id_city(message: Message) -> None:
             print('Ошибка при выполнении запроса')
     data = data
 
-    gaia_id  = data['sr'][0]['gaiaId']
+    gaia_id = data['sr'][0]['gaiaId']
     get_property_id(message, gaia_id, city_search)
 
 
 
 @bot.message_handler(state=CityInformation.id_city)
-def get_property_id(message: Message, gaia_id = str, city_search = str, city_count_search = int) -> None:
+def get_property_id(message: Message, gaia_id = str, city_search = str, hotel_count_search = int) -> None:
     """Получение ID Отеля"""
     with bot.retrieve_data(message.from_user.id, message.chat.id) as data :
         data['id_city'] = message.text
     bot.set_state(message.from_user.id, CityInformation.id_city, message.chat.id)
+    # запрашиваем у пользователя количество отелей, которое он хочет получить
+    bot.send_message(message.from_user.id, "Сколько отелей вы хотите получить?")
+    # меняем состояние пользователя на ожидание ввода количества отелей
+    bot.set_state(message.from_user.id, CityInformation.hotel_count, message.chat.id)
     url = "https://hotels4.p.rapidapi.com/properties/v2/list"
-
     payload = {
         "currency" : "USD",
         "eapid" : 1,
@@ -114,7 +122,7 @@ def get_property_id(message: Message, gaia_id = str, city_search = str, city_cou
             }
         ],
         "resultsStartingIndex" : 0,
-        "resultsSize" : f"{city_count_search}",
+        "resultsSize" : f"{hotel_count_search}",
         "sort" : "PRICE_LOW_TO_HIGH",
         "filters" : {"price" : {
             "max" : 5000,
@@ -128,7 +136,8 @@ def get_property_id(message: Message, gaia_id = str, city_search = str, city_cou
     }
 
     response = requests.request("POST", url, json=payload, headers=headers)
-    print(response.status_code)
+    print('Строка 139: ',response.status_code)
+    logging.debug(response.status_code)
     data = response.json()
     # print(data)
     with open('api\properties_list.json', 'w') as file :
@@ -139,20 +148,26 @@ def get_property_id(message: Message, gaia_id = str, city_search = str, city_cou
     x = 0
     dict_id = 0
 
-    print(payload["resultsSize"])
+    print('Строка 151: ', type(hotel_count_search))
+    print('Строка 152: ',type(payload["resultsSize"]))
 
-    for i in range(payload["resultsSize"]) :
-        with open('api\properties_list.json', 'r') as file:
-            data = json.load(file)
-        property_id = data['data']['propertySearch']['properties'][i]['id']
-        property_name = data['data']['propertySearch']['properties'][i]['name']
-        property_image = data['data']['propertySearch']['properties'][i]['propertyImage']['image']['url']
-        property_price = data['data']['propertySearch']['properties'][i]['price']['displayMessages'][1]['lineItems'][0][
-            'value']
-        property_dict = {'id' : property_id, 'name' : property_name, 'image' : property_image, 'price' : property_price}
-        dict_id += 1
+    # logging.debug(payload["resultsSize"])
 
-        all_property_dicts['data'].append(property_dict)
+    if isinstance(hotel_count_search, int):
+        for i in range(hotel_count_search) :
+            with open('api\properties_list.json', 'r') as file:
+                data = json.load(file)
+            property_id = data['data']['propertySearch']['properties'][i]['id']
+            property_name = data['data']['propertySearch']['properties'][i]['name']
+            property_image = data['data']['propertySearch']['properties'][i]['propertyImage']['image']['url']
+            property_price = data['data']['propertySearch']['properties'][i]['price']['displayMessages'][1]['lineItems'][0][
+                'value']
+            property_dict = {'id' : property_id, 'name' : property_name, 'image' : property_image, 'price' : property_price}
+            dict_id += 1
+
+            all_property_dicts['data'].append(property_dict)
+    else:
+        print("Ошибка: результаты должны быть числом")
 
     with open("api\search_five_hotels.json", 'w') as file :
         json.dump(all_property_dicts, file, indent=4, separators=(',', ':'))
@@ -175,6 +190,7 @@ def get_property_id(message: Message, gaia_id = str, city_search = str, city_cou
         # Добавить фото и описание в список медиа-сообщений
         media_group.append({'type' : 'photo', 'media' : photo_url, 'caption' : caption})
         print(media_group)
+        logging.debug(media_group)
         bot.send_photo(message.chat.id, hotel['image'], hotel['name'])
         bot.send_message(message.chat.id, hotel['price'])
     # Вот реализация:

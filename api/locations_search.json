@@ -1,231 +1,116 @@
 {
-    "q": "10",
-    "rid": "f5f8dad7418d4a3d816a9b1b35a33239",
+    "q": "Milan",
+    "rid": "6d286cce178d4097bf722f53366d9197",
     "rc": "OK",
     "sr": [
         {
             "@type": "gaiaRegionResult",
             "index": "0",
-            "gaiaId": "6123647",
+            "gaiaId": "2302",
             "type": "CITY",
             "regionNames": {
-                "fullName": "6th of October City, Giza Governorate, Egypt",
-                "shortName": "6th of October City",
-                "displayName": "6th of October City, Giza Governorate, Egypt",
-                "primaryDisplayName": "6th of October City",
-                "secondaryDisplayName": "Giza Governorate, Egypt",
-                "lastSearchName": "6th of October City"
+                "fullName": "Milan, Lombardy, Italy",
+                "shortName": "Milan",
+                "displayName": "Milan, Lombardy, Italy",
+                "primaryDisplayName": "Milan",
+                "secondaryDisplayName": "Lombardy, Italy",
+                "lastSearchName": "Milan"
             },
             "essId": {
                 "sourceName": "GAI",
-                "sourceId": "6123647"
+                "sourceId": "2302"
             },
             "coordinates": {
-                "lat": "29.928544",
-                "long": "30.91878"
+                "lat": "45.465424",
+                "long": "9.185925"
             },
             "hierarchyInfo": {
                 "country": {
-                    "name": "Egypt",
-                    "isoCode2": "EG",
-                    "isoCode3": "EGY"
+                    "name": "Italy",
+                    "isoCode2": "IT",
+                    "isoCode3": "ITA"
                 }
             }
         },
         {
             "@type": "gaiaRegionResult",
             "index": "1",
-            "gaiaId": "6072011",
-            "type": "POI",
+            "gaiaId": "6049534",
+            "type": "NEIGHBORHOOD",
             "regionNames": {
-                "fullName": "Centennial Olympic Park, Atlanta, Atlanta, Georgia, United States of America",
-                "shortName": "Centennial Olympic Park",
-                "displayName": "Centennial Olympic Park, Atlanta, Atlanta, Georgia, United States",
-                "primaryDisplayName": "Centennial Olympic Park",
-                "secondaryDisplayName": "Atlanta, Atlanta, Georgia, United States",
-                "lastSearchName": "Centennial Olympic Park"
+                "fullName": "Milan Centre, Milan, Lombardy, Italy",
+                "shortName": "Milan Centre",
+                "displayName": "Milan Centre, Milan, Lombardy, Italy",
+                "primaryDisplayName": "Milan Centre",
+                "secondaryDisplayName": "Milan, Lombardy, Italy",
+                "lastSearchName": "Milan Centre"
             },
             "essId": {
                 "sourceName": "GAI",
-                "sourceId": "6072011"
+                "sourceId": "6049534"
             },
             "coordinates": {
-                "lat": "33.759778",
-                "long": "-84.393397"
+                "lat": "45.465013",
+                "long": "9.188365"
             },
             "hierarchyInfo": {
                 "country": {
-                    "name": "United States",
-                    "isoCode2": "US",
-                    "isoCode3": "USA"
+                    "name": "Italy",
+                    "isoCode2": "IT",
+                    "isoCode3": "ITA"
                 }
             }
         },
         {
             "@type": "gaiaRegionResult",
             "index": "2",
-            "gaiaId": "553248633981714286",
-            "type": "NEIGHBORHOOD",
+            "gaiaId": "5265485",
+            "type": "AIRPORT",
             "regionNames": {
-                "fullName": "Zona 10, Guatemala City, Guatemala Department, Guatemala",
-                "shortName": "Zona 10",
-                "displayName": "Zona 10, Guatemala City, Guatemala Department, Guatemala",
-                "primaryDisplayName": "Zona 10",
-                "secondaryDisplayName": "Guatemala City, Guatemala Department, Guatemala",
-                "lastSearchName": "Zona 10"
+                "fullName": "Milan, Italy (MXP-Malpensa Intl.)",
+                "shortName": "Milan (MXP-Malpensa Intl.)",
+                "displayName": "Milan (MXP - Malpensa Intl.), Italy",
+                "primaryDisplayName": "Milan (MXP - Malpensa Intl.)",
+                "secondaryDisplayName": "Italy",
+                "lastSearchName": "Milan (MXP - Malpensa Intl.)"
             },
             "essId": {
                 "sourceName": "GAI",
-                "sourceId": "553248633981714286"
+                "sourceId": "5265485"
             },
             "coordinates": {
-                "lat": "14.597035",
-                "long": "-90.504524"
+                "lat": "45.627723",
+                "long": "8.712811"
             },
             "hierarchyInfo": {
                 "country": {
-                    "name": "Guatemala",
-                    "isoCode2": "GT",
-                    "isoCode3": "GTM"
+                    "name": "Italy",
+                    "isoCode2": "IT",
+                    "isoCode3": "ITA"
                 }
-            }
+            },
+            "isMinorAirport": "false"
         },
         {
             "@type": "gaiaRegionResult",
             "index": "3",
-            "gaiaId": "6300171",
-            "type": "POI",
-            "regionNames": {
-                "fullName": "1000 Islands Tower, Leeds and the Thousand Islands, Ontario, Canada",
-                "shortName": "1000 Islands Tower",
-                "displayName": "1000 Islands Tower, Leeds and the Thousand Islands, Ontario, Canada",
-                "primaryDisplayName": "1000 Islands Tower",
-                "secondaryDisplayName": "Leeds and the Thousand Islands, Ontario, Canada",
-                "lastSearchName": "1000 Islands Tower"
-            },
-            "essId": {
-                "sourceName": "GAI",
-                "sourceId": "6300171"
-            },
-            "coordinates": {
-                "lat": "44.352633",
-                "long": "-75.979869"
-            },
-            "hierarchyInfo": {
-                "country": {
-                    "name": "Canada",
-                    "isoCode2": "CA",
-                    "isoCode3": "CAN"
-                }
-            }
-        },
-        {
-            "@type": "gaiaRegionResult",
-            "index": "4",
-            "gaiaId": "177748",
+            "gaiaId": "602272",
             "type": "CITY",
             "regionNames": {
-                "fullName": "108 Mile Ranch, British Columbia, Canada",
-                "shortName": "108 Mile Ranch",
-                "displayName": "108 Mile Ranch, British Columbia, Canada",
-                "primaryDisplayName": "108 Mile Ranch",
-                "secondaryDisplayName": "British Columbia, Canada",
-                "lastSearchName": "108 Mile Ranch"
+                "fullName": "Milan, Michigan, United States of America",
+                "shortName": "Milan",
+                "displayName": "Milan, Michigan, United States",
+                "primaryDisplayName": "Milan",
+                "secondaryDisplayName": "Michigan, United States",
+                "lastSearchName": "Milan"
             },
             "essId": {
                 "sourceName": "GAI",
-                "sourceId": "177748"
+                "sourceId": "602272"
             },
             "coordinates": {
-                "lat": "51.75113",
-                "long": "-121.34845"
-            },
-            "hierarchyInfo": {
-                "country": {
-                    "name": "Canada",
-                    "isoCode2": "CA",
-                    "isoCode3": "CAN"
-                }
-            }
-        },
-        {
-            "@type": "gaiaRegionResult",
-            "index": "5",
-            "gaiaId": "6058290",
-            "type": "CITY",
-            "regionNames": {
-                "fullName": "100 Mile House, British Columbia, Canada",
-                "shortName": "100 Mile House",
-                "displayName": "100 Mile House, British Columbia, Canada",
-                "primaryDisplayName": "100 Mile House",
-                "secondaryDisplayName": "British Columbia, Canada",
-                "lastSearchName": "100 Mile House"
-            },
-            "essId": {
-                "sourceName": "GAI",
-                "sourceId": "6058290"
-            },
-            "coordinates": {
-                "lat": "51.643976",
-                "long": "-121.295018"
-            },
-            "hierarchyInfo": {
-                "country": {
-                    "name": "Canada",
-                    "isoCode2": "CA",
-                    "isoCode3": "CAN"
-                }
-            }
-        },
-        {
-            "@type": "gaiaRegionResult",
-            "index": "6",
-            "gaiaId": "6291936",
-            "type": "POI",
-            "regionNames": {
-                "fullName": "1000 Islands Mall, Brockville, Ontario, Canada",
-                "shortName": "1000 Islands Mall",
-                "displayName": "1000 Islands Mall, Brockville, Ontario, Canada",
-                "primaryDisplayName": "1000 Islands Mall",
-                "secondaryDisplayName": "Brockville, Ontario, Canada",
-                "lastSearchName": "1000 Islands Mall"
-            },
-            "essId": {
-                "sourceName": "GAI",
-                "sourceId": "6291936"
-            },
-            "coordinates": {
-                "lat": "44.60292063061955",
-                "long": "-75.6987653992967"
-            },
-            "hierarchyInfo": {
-                "country": {
-                    "name": "Canada",
-                    "isoCode2": "CA",
-                    "isoCode3": "CAN"
-                }
-            }
-        },
-        {
-            "@type": "gaiaRegionResult",
-            "index": "7",
-            "gaiaId": "553248621532665118",
-            "type": "POI",
-            "regionNames": {
-                "fullName": "1000 Islands River Rat Cheese, Clayton, New York, United States of America",
-                "shortName": "1000 Islands River Rat Cheese",
-                "displayName": "1000 Islands River Rat Cheese, Clayton, New York, United States",
-                "primaryDisplayName": "1000 Islands River Rat Cheese",
-                "secondaryDisplayName": "Clayton, New York, United States",
-                "lastSearchName": "1000 Islands River Rat Cheese"
-            },
-            "essId": {
-                "sourceName": "GAI",
-                "sourceId": "553248621532665118"
-            },
-            "coordinates": {
-                "lat": "44.240883",
-                "long": "-76.088664"
+                "lat": "42.08532",
+                "long": "-83.682442"
             },
             "hierarchyInfo": {
                 "country": {
@@ -237,53 +122,173 @@
         },
         {
             "@type": "gaiaRegionResult",
-            "index": "8",
-            "gaiaId": "6187881",
-            "type": "NEIGHBORHOOD",
+            "index": "4",
+            "gaiaId": "508479",
+            "type": "POI",
             "regionNames": {
-                "fullName": "10th Arrondissement, Paris, France",
-                "shortName": "10th Arrondissement",
-                "displayName": "10th Arrondissement, Paris, France",
-                "primaryDisplayName": "10th Arrondissement",
-                "secondaryDisplayName": "Paris, France",
-                "lastSearchName": "10th Arrondissement"
+                "fullName": "Piazza del Duomo, Milan, Lombardy, Italy",
+                "shortName": "Piazza del Duomo",
+                "displayName": "Piazza del Duomo, Milan, Lombardy, Italy",
+                "primaryDisplayName": "Piazza del Duomo",
+                "secondaryDisplayName": "Milan, Lombardy, Italy",
+                "lastSearchName": "Piazza del Duomo"
             },
             "essId": {
                 "sourceName": "GAI",
-                "sourceId": "6187881"
+                "sourceId": "508479"
             },
             "coordinates": {
-                "lat": "48.876126",
-                "long": "2.359839"
+                "lat": "45.464127149618164",
+                "long": "9.190708802475152"
             },
             "hierarchyInfo": {
                 "country": {
-                    "name": "France",
-                    "isoCode2": "FR",
-                    "isoCode3": "FRA"
+                    "name": "Italy",
+                    "isoCode2": "IT",
+                    "isoCode3": "ITA"
+                }
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "5",
+            "gaiaId": "553248635810303227",
+            "type": "NEIGHBORHOOD",
+            "regionNames": {
+                "fullName": "Central Station, Milan, Metropolitan City of Milan, Lombardy, Italy",
+                "shortName": "Central Station",
+                "displayName": "Central Station, Milan, Metropolitan City of Milan, Lombardy, Italy",
+                "primaryDisplayName": "Central Station",
+                "secondaryDisplayName": "Milan, Metropolitan City of Milan, Lombardy, Italy",
+                "lastSearchName": "Central Station"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "553248635810303227"
+            },
+            "coordinates": {
+                "lat": "45.48442",
+                "long": "9.206088"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "Italy",
+                    "isoCode2": "IT",
+                    "isoCode3": "ITA"
+                }
+            }
+        },
+        {
+            "@type": "gaiaHotelResult",
+            "index": "6",
+            "hotelId": "3773290",
+            "type": "HOTEL",
+            "regionNames": {
+                "fullName": "Sheraton Milan Malpensa Airport Hotel & Conference Center, Ferno, Lombardy, Italy",
+                "shortName": "Sheraton Milan Malpensa Airport Hotel & Conference Center",
+                "displayName": "Sheraton Milan Malpensa Airport Hotel & Conference Center, Ferno, Lombardy, Italy",
+                "primaryDisplayName": "Sheraton Milan Malpensa Airport Hotel & Conference Center",
+                "secondaryDisplayName": "Ferno, Lombardy, Italy",
+                "lastSearchName": "Sheraton Milan Malpensa Airport Hotel & Conference Center"
+            },
+            "essId": {
+                "sourceName": "LCM",
+                "sourceId": "3773290"
+            },
+            "coordinates": {
+                "lat": "45.626766",
+                "long": "8.711737"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "isoCode3": "ITA"
+                }
+            },
+            "cityId": "6144696",
+            "hotelAddress": {
+                "street": "S.S. 336",
+                "city": "Ferno",
+                "province": "VA"
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "7",
+            "gaiaId": "501802",
+            "type": "POI",
+            "regionNames": {
+                "fullName": "Cathedral of Milan, Milan, Lombardy, Italy",
+                "shortName": "Cathedral of Milan",
+                "displayName": "Cathedral of Milan, Milan, Lombardy, Italy",
+                "primaryDisplayName": "Cathedral of Milan",
+                "secondaryDisplayName": "Milan, Lombardy, Italy",
+                "lastSearchName": "Cathedral of Milan"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "501802"
+            },
+            "coordinates": {
+                "lat": "45.46418325629138",
+                "long": "9.191603735903886"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "Italy",
+                    "isoCode2": "IT",
+                    "isoCode3": "ITA"
+                }
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "8",
+            "gaiaId": "6077564",
+            "type": "POI",
+            "regionNames": {
+                "fullName": "Milan Convention Centre, Milan, Lombardy, Italy",
+                "shortName": "Milan Convention Centre",
+                "displayName": "Milan Convention Centre, Milan, Lombardy, Italy",
+                "primaryDisplayName": "Milan Convention Centre",
+                "secondaryDisplayName": "Milan, Lombardy, Italy",
+                "lastSearchName": "Milan Convention Centre"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "6077564"
+            },
+            "coordinates": {
+                "lat": "45.48078821568305",
+                "long": "9.15275875476123"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "Italy",
+                    "isoCode2": "IT",
+                    "isoCode3": "ITA"
                 }
             }
         },
         {
             "@type": "gaiaRegionResult",
             "index": "9",
-            "gaiaId": "6087107",
-            "type": "POI",
+            "gaiaId": "553248634998822971",
+            "type": "CITY",
             "regionNames": {
-                "fullName": "Trees of Mystery, Klamath, California, United States of America",
-                "shortName": "Trees of Mystery",
-                "displayName": "Trees of Mystery, Klamath, California, United States",
-                "primaryDisplayName": "Trees of Mystery",
-                "secondaryDisplayName": "Klamath, California, United States",
-                "lastSearchName": "Trees of Mystery"
+                "fullName": "Milan, Georgia, United States of America",
+                "shortName": "Milan",
+                "displayName": "Milan, Georgia, United States",
+                "primaryDisplayName": "Milan",
+                "secondaryDisplayName": "Georgia, United States",
+                "lastSearchName": "Milan"
             },
             "essId": {
                 "sourceName": "GAI",
-                "sourceId": "6087107"
+                "sourceId": "553248634998822971"
             },
             "coordinates": {
-                "lat": "41.584571",
-                "long": "-124.085918"
+                "lat": "32.0174",
+                "long": "-83.062649"
             },
             "hierarchyInfo": {
                 "country": {

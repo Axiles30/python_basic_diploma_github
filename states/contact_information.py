@@ -6,7 +6,7 @@ class CityInformation(StatesGroup):
     price_range = State()
     date_range = State()
     city = State()
-    city_count = State()
+    hotel_count = State()
     id_city = State()
     property_id = State()
     property_details = State()
