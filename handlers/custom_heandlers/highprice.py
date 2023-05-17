@@ -1,14 +1,14 @@
-import json
-import os
-import requests
-from telebot.types import Message, CallbackQuery, logger
-from loader import bot
-from states.contact_information import TravelInformation
-import logging
-"""
-# Команда /low
+# import json
+# import os
+# import requests
+# from telebot.types import Message, CallbackQuery, logger
+# from loader import bot
+# from states.contact_information import TravelInformation
+# import logging
+# """
+# Команда /high
 # После ввода команды у пользователя запрашивается:
-# 1. Услуга/товар, по которым будет проводиться поиск (самая низкая стоимость,
+# 1. Услуга/товар, по которым будет проводиться поиск (самая высокая стоимость,
 # самые доступные авто, самое близкое местоположение и так далее).
 # 2. Количество единиц категории (товаров/услуг), которое необходимо вывести (не
 # больше программно определённого максимума).
@@ -18,8 +18,8 @@ import logging
 # # logging.basicConfig(filename='logisy/app.log', level=logging.DEBUG)
 #
 # states_dict = {}
-# new_dict = {'data' : []}
-# @bot.callback_query_handler(func=lambda call: call.data == 'lowprice')
+# # new_dict = {'data' : []}
+# @bot.callback_query_handler(func=lambda call: call.data == 'highprice')
 # def handle_lowprice_query(call: CallbackQuery):
 #     city(call.message)
 #
@@ -54,8 +54,11 @@ import logging
 #     with open('database\json_files\city_and_hotels_count.json', 'w') as file:
 #          json.dump(states_dict, file, indent=4)
 #
+#     with open('database\json_files\city_and_hotels_count.json', 'r') as file:
+#         data = json.load(file)
+#
 #     # bot.send_message(message.from_user.id, f'Произвожу поиск в городе: {message.text}')
-#     # bot.set_state(message.from_user.id, TravelInformation.city, message.chat.id)
+#     bot.set_state(message.from_user.id, TravelInformation.city, message.chat.id)
 #     print(data['city'])
 #     with bot.retrieve_data(message.from_user.id, message.chat.id) as data:
 #         url = "https://hotels4.p.rapidapi.com/locations/v3/search"
@@ -115,7 +118,7 @@ import logging
 #         ],
 #         "resultsStartingIndex" : 0,
 #         "resultsSize" : states_dict['hotels'],
-#         "sort" : "PRICE_LOW_TO_HIGH",
+#         "sort" : "PRICE_HIGH_TO_LOW",
 #         "filters" : {"price" : {
 #             "max" : 5000,
 #             "min" : 150
@@ -136,7 +139,7 @@ import logging
 #         json.dump(data, file, indent=4)
 #
 #
-#     all_property_dicts = {'city' : f"{city_search}", 'data' : []}
+#     all_property_dicts = {'city' : states_dict['city'], 'data' : []}
 #     x = 0
 #     dict_id = 0
 #
@@ -152,9 +155,9 @@ import logging
 #         property_id = data['data']['propertySearch']['properties'][i]['id']
 #         property_name = data['data']['propertySearch']['properties'][i]['name']
 #         property_image = data['data']['propertySearch']['properties'][i]['propertyImage']['image']['url']
-#         price_per_day = data['data']['propertySearch']['properties'][i]['price']['displayMessages'][0]['lineItems'][0]['price']['formatted']
-#         property_all_price = data['data']['propertySearch']['properties'][i]['price']['displayMessages'][1]['lineItems'][0]['value']
-#         property_dict = {'id' : property_id, 'name' : property_name, 'image' : property_image, 'price_per_day' : price_per_day, 'price_all' : property_all_price}
+#         property_price = data['data']['propertySearch']['properties'][i]['price']['displayMessages'][1]['lineItems'][0][
+#                 'value']
+#         property_dict = {'id' : property_id, 'name' : property_name, 'image' : property_image, 'price' : property_price}
 #         dict_id += 1
 #
 #         all_property_dicts['data'].append(property_dict)
@@ -167,6 +170,10 @@ import logging
 #
 #     with open('api\search_five_hotels.json', 'r') as file :
 #         data = json.load(file)
+#     # for hotel in data['data'] :
+#     #     x += 1
+#         # print(f"{hotel['name']} : {hotel['price']}\n{hotel['image']}\n")
+#         # Создать список медиа-сообщений
 #     media_group = []
 #
 #         # Перебрать отели в данных
@@ -174,11 +181,10 @@ import logging
 #         # Получить изображение отеля
 #         photo_url = hotel['image']
 #         # Получить название и цену отеля
-#         caption = f"{hotel['name']}\n{hotel['price_per_day']}\n{hotel['price_all']}"
+#         caption = f"{hotel['name']}\n{hotel['price']}"
 #         # Добавить фото и описание в список медиа-сообщений
 #         media_group.append({'type' : 'photo', 'media' : photo_url, 'caption' : caption})
 #         print(media_group)
-#         # logging.debug(media_group)
+#         logging.debug(media_group)
 #         bot.send_photo(message.chat.id, hotel['image'], hotel['name'])
-#         bot.send_message(message.chat.id, f"Стоимость за ночь : {hotel['price_per_day']}")
-#         bot.send_message(message.chat.id, f"Общая стоимость : {hotel['price_all']}")
+#         bot.send_message(message.chat.id, hotel['price'])

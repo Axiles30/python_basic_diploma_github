@@ -5,8 +5,8 @@
             "summary": {
                 "__typename": "PropertySummary",
                 "fees": null,
-                "id": "911434",
-                "name": "Hotel Agape",
+                "id": "796459",
+                "name": "a&o Berlin Kolumbus",
                 "map": {
                     "__typename": "PropertyInfoMap",
                     "markers": [
@@ -17,30 +17,14 @@
                                 "icon": "AIRPORT",
                                 "latLong": {
                                     "__typename": "Coordinates",
-                                    "latitude": 45.627723,
-                                    "longitude": 8.712811
+                                    "latitude": 52.364575,
+                                    "longitude": 13.510356
                                 },
                                 "type": "POI"
                             },
                             "poiContent": null,
-                            "subtitle": "45 min drive",
-                            "title": "Milan (MXP-Malpensa Intl.)"
-                        },
-                        {
-                            "__typename": "PointOfInterest",
-                            "mapMarker": {
-                                "__typename": "MapMarker",
-                                "icon": "AIRPORT",
-                                "latLong": {
-                                    "__typename": "Coordinates",
-                                    "latitude": 45.460668,
-                                    "longitude": 9.279102
-                                },
-                                "type": "POI"
-                            },
-                            "poiContent": null,
-                            "subtitle": "10 min drive",
-                            "title": "Milan (LIN-Linate)"
+                            "subtitle": "43 min drive",
+                            "title": "Berlin (BER-Brandenburg)"
                         },
                         {
                             "__typename": "PointOfInterest",
@@ -49,19 +33,19 @@
                                 "icon": "HOTEL",
                                 "latLong": {
                                     "__typename": "Coordinates",
-                                    "latitude": 45.50575,
-                                    "longitude": 9.2471
+                                    "latitude": 52.539111,
+                                    "longitude": 13.498975
                                 },
                                 "type": "HOTEL"
                             },
                             "poiContent": {
                                 "__typename": "PoiContent",
                                 "description": null,
-                                "id": "911434",
+                                "id": "796459",
                                 "image": null
                             },
                             "subtitle": null,
-                            "title": "Hotel Agape"
+                            "title": "a&o Berlin Kolumbus"
                         }
                     ]
                 },
@@ -77,7 +61,7 @@
                     "childAndBed": {
                         "__typename": "PropertyInfoSubSection",
                         "body": [
-                            "No cribs (infant beds)"
+                            "Up to 2 children (17 years old and younger) stay free when occupying the parent or guardian's room, using existing bedding "
                         ],
                         "descriptions": [],
                         "title": null
@@ -85,7 +69,7 @@
                     "needToKnow": {
                         "__typename": "PropertyInfoSubSection",
                         "body": [
-                            "<p>Noise-free guestrooms cannot be guaranteed. </p><p>Guests can rest easy knowing there's a fire extinguisher, a smoke detector, and a first aid kit on site. </p><p>Please note that cultural norms and guest policies may differ by country and by property. The policies listed are provided by the property. </p><p>This property accepts credit cards. Cash is not accepted.</p><p>Cash transactions at this property cannot exceed EUR 5000, due to national regulations. For further details, please contact the property using information in the booking confirmation. </p>"
+                            "<p>This property uses solar energy, plus eco-friendly cleaning products. </p><p>Please note that cultural norms and guest policies may differ by country and by property. The policies listed are provided by the property. </p><p>This property accepts credit cards, debit cards and cash.</p>"
                         ],
                         "descriptions": [],
                         "title": "You need to know"
@@ -94,25 +78,17 @@
                     "pets": {
                         "__typename": "PropertyInfoSubSection",
                         "body": [
-                            "Pets not allowed"
+                            "Pets allowed (dogs only)*"
                         ],
                         "descriptions": [],
                         "title": "Pets"
                     },
-                    "shouldMention": {
-                        "__typename": "PropertyInfoSubSection",
-                        "body": [
-                            "All guests, including children, must be present at check-in and show their government-issued photo ID card or passport",
-                            "Cash transactions at this property cannot exceed EUR 5000, due to national regulations; for further details, please contact the property using information in the booking confirmation"
-                        ],
-                        "descriptions": [],
-                        "title": "We should mention"
-                    }
+                    "shouldMention": null
                 },
                 "telesalesPhoneNumber": "",
                 "bannerMessage": null,
                 "latinAlphabetName": "",
-                "tagline": "Upscale hotel in Crescenzago with bar/lounge  \n",
+                "tagline": "Pet-friendly Berlin hotel with bar/lounge, connected to a shopping center \n",
                 "starRatingIcon": {
                     "__typename": "Icon",
                     "token": "STAR"
@@ -121,21 +97,9 @@
                     "__typename": "PropertyOverview",
                     "vipMessaging": null,
                     "inventoryType": null,
-                    "accessibilityLabel": "Overview of Hotel Agape",
+                    "accessibilityLabel": "Overview of a&o Berlin Kolumbus",
                     "label": null,
-                    "propertyRating": {
-                        "__typename": "EGDSIconRating",
-                        "rating": 4,
-                        "accessibility": "4.0 star property",
-                        "icon": {
-                            "__typename": "Icon",
-                            "id": "star",
-                            "description": "star rating",
-                            "size": null,
-                            "token": "icon__star",
-                            "theme": null
-                        }
-                    }
+                    "propertyRating": null
                 },
                 "featuredMessages": null,
                 "spaceOverview": null,
@@ -173,14 +137,14 @@
                                     "items": [
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "43 rooms",
+                                            "text": "214 rooms",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
                                         },
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Arranged over 4 floors",
+                                            "text": "Arranged over 8 floors",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
@@ -207,28 +171,42 @@
                                     "items": [
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Check-in time from 2 PM - midnight",
+                                            "text": "Check-in time from 3 PM - midnight",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
                                         },
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Express check-in/out available",
+                                            "text": "Early check-in subject to availability",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
                                         },
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Minimum check-in age: 18 ",
+                                            "text": "Late check-in subject to availability",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
                                         },
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Check-out time is 11:00 AM",
+                                            "text": "Minimum check-in age: 16 ",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Check-out time is 10 AM",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Late check-out subject to availability",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
@@ -323,7 +301,7 @@
                                         },
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Minimum check-in age is 18 ",
+                                            "text": "Minimum check-in age is 16 ",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
@@ -350,7 +328,7 @@
                                     "items": [
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "No cribs (infant beds)",
+                                            "text": "Up to 2 children (17 years old and younger) stay free when occupying the parent or guardian's room, using existing bedding ",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
@@ -377,7 +355,7 @@
                                     "items": [
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Pets not allowed",
+                                            "text": "Pets allowed (dogs only)*",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
@@ -438,14 +416,21 @@
                                     "items": [
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Onsite self parking (EUR 15 per day)",
+                                            "text": "Onsite self parking (EUR 6 per day; includes in/out privileges)",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
                                         },
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Wheelchair-accessible parking on site",
+                                            "text": "Electric vehicle charging point on site",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Free offsite parking nearby",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
@@ -512,7 +497,7 @@
                                     "items": [
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Buffet breakfast (surcharge) each morning 7 AM\u201310:00 AM",
+                                            "text": "Buffet breakfast (surcharge) each morning 7:00 AM\u201311:00 AM",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
@@ -526,7 +511,7 @@
                                         },
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Room service",
+                                            "text": "Coffee/tea in a common area",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
@@ -534,6 +519,101 @@
                                         {
                                             "__typename": "PropertyInfoItem",
                                             "text": "Snack bar/deli",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Water dispenser",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__typename": "PropertyInfoContent",
+                                    "header": {
+                                        "__typename": "LodgingHeader",
+                                        "text": "Traveling with children",
+                                        "subText": null,
+                                        "mark": null
+                                    },
+                                    "icon": {
+                                        "__typename": "Icon",
+                                        "id": "family_friendly",
+                                        "description": "",
+                                        "size": null,
+                                        "token": "family_friendly",
+                                        "theme": null
+                                    },
+                                    "jumpLink": null,
+                                    "items": [
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Children stay free (see details)",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__typename": "PropertyInfoContent",
+                                    "header": {
+                                        "__typename": "LodgingHeader",
+                                        "text": "What to do",
+                                        "subText": null,
+                                        "mark": null
+                                    },
+                                    "icon": {
+                                        "__typename": "Icon",
+                                        "id": "lob_activities",
+                                        "description": "",
+                                        "size": null,
+                                        "token": "lob_activities",
+                                        "theme": null
+                                    },
+                                    "jumpLink": null,
+                                    "items": [
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Beach nearby",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__typename": "PropertyInfoContent",
+                                    "header": {
+                                        "__typename": "LodgingHeader",
+                                        "text": "Working away",
+                                        "subText": null,
+                                        "mark": null
+                                    },
+                                    "icon": {
+                                        "__typename": "Icon",
+                                        "id": "business_center",
+                                        "description": "",
+                                        "size": null,
+                                        "token": "business_center",
+                                        "theme": null
+                                    },
+                                    "jumpLink": null,
+                                    "items": [
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Meeting rooms",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Conference space",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
@@ -567,21 +647,7 @@
                                         },
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Concierge services",
-                                            "state": null,
-                                            "moreInfo": null,
-                                            "icon": null
-                                        },
-                                        {
-                                            "__typename": "PropertyInfoItem",
                                             "text": "Tour/ticket assistance",
-                                            "state": null,
-                                            "moreInfo": null,
-                                            "icon": null
-                                        },
-                                        {
-                                            "__typename": "PropertyInfoItem",
-                                            "text": "Dry cleaning/laundry services",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
@@ -603,6 +669,13 @@
                                         {
                                             "__typename": "PropertyInfoItem",
                                             "text": "Multilingual staff",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Bike storage",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
@@ -629,7 +702,168 @@
                                     "items": [
                                         {
                                             "__typename": "PropertyInfoItem",
+                                            "text": "1 building/tower",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Built in 1975",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
                                             "text": "Safe-deposit box at front desk",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Rooftop garden",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Garden",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Television in common areas",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Bicycle parking",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "At least 80% of food locally-sourced",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Vegetarian dining options",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Annual offsets purchased for at least 10% of carbon footprint",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Humane treatment of captive wild animals",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Locally-owned & organized tours & activities",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Local artist showcase",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "At least 10% of profits reinvested in community & sustainability",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Local culture & ecosystem education",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "100% renewable energy",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Double-glazed windows",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "At least 80% lighting from LEDs",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Comprehensive food waste policy",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "No plastic coffee stirrers",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "No plastic drinking straws",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Water dispenser",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Reusable cups only",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Reusable tableware only",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
@@ -670,28 +904,21 @@
                                         },
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Wheelchair-accessible path of travel",
+                                            "text": "Wheelchair accessible",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
                                         },
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Wheelchair-accessible parking",
+                                            "text": "Wheelchair-accessible registration desk",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
                                         },
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Raised toilet seat",
-                                            "state": null,
-                                            "moreInfo": null,
-                                            "icon": null
-                                        },
-                                        {
-                                            "__typename": "PropertyInfoItem",
-                                            "text": "Bathroom emergency pull cord",
+                                            "text": "Wheelchair-accessible lounge",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
@@ -731,62 +958,7 @@
                                     "items": [
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Flat-screen television",
-                                            "state": null,
-                                            "moreInfo": null,
-                                            "icon": null
-                                        },
-                                        {
-                                            "__typename": "PropertyInfoItem",
-                                            "text": "Satellite TV channels",
-                                            "state": null,
-                                            "moreInfo": null,
-                                            "icon": null
-                                        },
-                                        {
-                                            "__typename": "PropertyInfoItem",
-                                            "text": "Pay movies",
-                                            "state": null,
-                                            "moreInfo": null,
-                                            "icon": null
-                                        }
-                                    ]
-                                },
-                                {
-                                    "__typename": "PropertyInfoContent",
-                                    "header": {
-                                        "__typename": "LodgingHeader",
-                                        "text": "Home comfort",
-                                        "subText": null,
-                                        "mark": null
-                                    },
-                                    "icon": {
-                                        "__typename": "Icon",
-                                        "id": "done",
-                                        "description": "",
-                                        "size": null,
-                                        "token": "done",
-                                        "theme": null
-                                    },
-                                    "jumpLink": null,
-                                    "items": [
-                                        {
-                                            "__typename": "PropertyInfoItem",
-                                            "text": "Air conditioning",
-                                            "state": null,
-                                            "moreInfo": null,
-                                            "icon": null
-                                        },
-                                        {
-                                            "__typename": "PropertyInfoItem",
-                                            "text": "Minibar",
-                                            "state": null,
-                                            "moreInfo": null,
-                                            "icon": null
-                                        },
-                                        {
-                                            "__typename": "PropertyInfoItem",
-                                            "text": "Iron/ironing board (on request)",
+                                            "text": "Television",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
@@ -813,7 +985,7 @@
                                     "items": [
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Alarm clock",
+                                            "text": "Blackout drapes/curtains",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
@@ -847,21 +1019,14 @@
                                         },
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Bathtub or shower",
+                                            "text": "Shower only",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
                                         },
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "Free toiletries",
-                                            "state": null,
-                                            "moreInfo": null,
-                                            "icon": null
-                                        },
-                                        {
-                                            "__typename": "PropertyInfoItem",
-                                            "text": "Hair dryer",
+                                            "text": "Eco-friendly toiletries",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
@@ -899,13 +1064,6 @@
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
-                                        },
-                                        {
-                                            "__typename": "PropertyInfoItem",
-                                            "text": "Free local calls",
-                                            "state": null,
-                                            "moreInfo": null,
-                                            "icon": null
                                         }
                                     ]
                                 },
@@ -936,7 +1094,42 @@
                                         },
                                         {
                                             "__typename": "PropertyInfoItem",
-                                            "text": "In-room safe",
+                                            "text": "Eco-friendly toiletries",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Bulk dispenser for toiletries",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Eco-friendly cleaning products provided",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "LED light bulbs",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Water-efficient showers only",
+                                            "state": null,
+                                            "moreInfo": null,
+                                            "icon": null
+                                        },
+                                        {
+                                            "__typename": "PropertyInfoItem",
+                                            "text": "Water-efficient toilets only",
                                             "state": null,
                                             "moreInfo": null,
                                             "icon": null
@@ -987,6 +1180,20 @@
                             },
                             {
                                 "__typename": "PropertyInfoItem",
+                                "text": "Pet friendly",
+                                "state": null,
+                                "moreInfo": null,
+                                "icon": {
+                                    "__typename": "Icon",
+                                    "id": "pets",
+                                    "description": "",
+                                    "size": null,
+                                    "token": "pets",
+                                    "theme": null
+                                }
+                            },
+                            {
+                                "__typename": "PropertyInfoItem",
                                 "text": "Non-smoking",
                                 "state": null,
                                 "moreInfo": null,
@@ -1001,34 +1208,6 @@
                             },
                             {
                                 "__typename": "PropertyInfoItem",
-                                "text": "Air conditioning",
-                                "state": null,
-                                "moreInfo": null,
-                                "icon": {
-                                    "__typename": "Icon",
-                                    "id": "ac_unit",
-                                    "description": "",
-                                    "size": null,
-                                    "token": "ac_unit",
-                                    "theme": null
-                                }
-                            },
-                            {
-                                "__typename": "PropertyInfoItem",
-                                "text": "Bathtub",
-                                "state": null,
-                                "moreInfo": null,
-                                "icon": {
-                                    "__typename": "Icon",
-                                    "id": "hot_tub",
-                                    "description": "",
-                                    "size": null,
-                                    "token": "hot_tub",
-                                    "theme": null
-                                }
-                            },
-                            {
-                                "__typename": "PropertyInfoItem",
                                 "text": "Bar",
                                 "state": null,
                                 "moreInfo": null,
@@ -1038,6 +1217,20 @@
                                     "description": "",
                                     "size": null,
                                     "token": "local_bar",
+                                    "theme": null
+                                }
+                            },
+                            {
+                                "__typename": "PropertyInfoItem",
+                                "text": "24/7 front desk",
+                                "state": null,
+                                "moreInfo": null,
+                                "icon": {
+                                    "__typename": "Icon",
+                                    "id": "local_convenience_store",
+                                    "description": "",
+                                    "size": null,
+                                    "token": "local_convenience_store",
                                     "theme": null
                                 }
                             }
@@ -1113,6 +1306,20 @@
                                     },
                                     {
                                         "__typename": "PropertyInfoItem",
+                                        "text": "Pet friendly",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": {
+                                            "__typename": "Icon",
+                                            "id": "pets",
+                                            "description": "",
+                                            "size": null,
+                                            "token": "pets",
+                                            "theme": null
+                                        }
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
                                         "text": "Non-smoking",
                                         "state": null,
                                         "moreInfo": null,
@@ -1127,34 +1334,6 @@
                                     },
                                     {
                                         "__typename": "PropertyInfoItem",
-                                        "text": "Air conditioning",
-                                        "state": null,
-                                        "moreInfo": null,
-                                        "icon": {
-                                            "__typename": "Icon",
-                                            "id": "ac_unit",
-                                            "description": "",
-                                            "size": null,
-                                            "token": "ac_unit",
-                                            "theme": null
-                                        }
-                                    },
-                                    {
-                                        "__typename": "PropertyInfoItem",
-                                        "text": "Bathtub",
-                                        "state": null,
-                                        "moreInfo": null,
-                                        "icon": {
-                                            "__typename": "Icon",
-                                            "id": "hot_tub",
-                                            "description": "",
-                                            "size": null,
-                                            "token": "hot_tub",
-                                            "theme": null
-                                        }
-                                    },
-                                    {
-                                        "__typename": "PropertyInfoItem",
                                         "text": "Bar",
                                         "state": null,
                                         "moreInfo": null,
@@ -1164,6 +1343,20 @@
                                             "description": "",
                                             "size": null,
                                             "token": "local_bar",
+                                            "theme": null
+                                        }
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "24/7 front desk",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": {
+                                            "__typename": "Icon",
+                                            "id": "local_convenience_store",
+                                            "description": "",
+                                            "size": null,
+                                            "token": "local_convenience_store",
                                             "theme": null
                                         }
                                     }
@@ -1191,7 +1384,7 @@
                                 "items": [
                                     {
                                         "__typename": "PropertyInfoItem",
-                                        "text": "Buffet breakfast (surcharge) each morning 7 AM\u201310:00 AM",
+                                        "text": "Buffet breakfast (surcharge) each morning 7:00 AM\u201311:00 AM",
                                         "state": null,
                                         "moreInfo": null,
                                         "icon": null
@@ -1205,7 +1398,7 @@
                                     },
                                     {
                                         "__typename": "PropertyInfoItem",
-                                        "text": "Room service",
+                                        "text": "Coffee/tea in a common area",
                                         "state": null,
                                         "moreInfo": null,
                                         "icon": null
@@ -1213,6 +1406,101 @@
                                     {
                                         "__typename": "PropertyInfoItem",
                                         "text": "Snack bar/deli",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Water dispenser",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    }
+                                ]
+                            },
+                            {
+                                "__typename": "PropertyInfoContent",
+                                "header": {
+                                    "__typename": "LodgingHeader",
+                                    "text": "Traveling with children",
+                                    "subText": null,
+                                    "mark": null
+                                },
+                                "icon": {
+                                    "__typename": "Icon",
+                                    "id": "family_friendly",
+                                    "description": "",
+                                    "size": null,
+                                    "token": "family_friendly",
+                                    "theme": null
+                                },
+                                "jumpLink": null,
+                                "items": [
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Children stay free (see details)",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    }
+                                ]
+                            },
+                            {
+                                "__typename": "PropertyInfoContent",
+                                "header": {
+                                    "__typename": "LodgingHeader",
+                                    "text": "What to do",
+                                    "subText": null,
+                                    "mark": null
+                                },
+                                "icon": {
+                                    "__typename": "Icon",
+                                    "id": "lob_activities",
+                                    "description": "",
+                                    "size": null,
+                                    "token": "lob_activities",
+                                    "theme": null
+                                },
+                                "jumpLink": null,
+                                "items": [
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Beach nearby",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    }
+                                ]
+                            },
+                            {
+                                "__typename": "PropertyInfoContent",
+                                "header": {
+                                    "__typename": "LodgingHeader",
+                                    "text": "Working away",
+                                    "subText": null,
+                                    "mark": null
+                                },
+                                "icon": {
+                                    "__typename": "Icon",
+                                    "id": "business_center",
+                                    "description": "",
+                                    "size": null,
+                                    "token": "business_center",
+                                    "theme": null
+                                },
+                                "jumpLink": null,
+                                "items": [
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Meeting rooms",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Conference space",
                                         "state": null,
                                         "moreInfo": null,
                                         "icon": null
@@ -1246,21 +1534,7 @@
                                     },
                                     {
                                         "__typename": "PropertyInfoItem",
-                                        "text": "Concierge services",
-                                        "state": null,
-                                        "moreInfo": null,
-                                        "icon": null
-                                    },
-                                    {
-                                        "__typename": "PropertyInfoItem",
                                         "text": "Tour/ticket assistance",
-                                        "state": null,
-                                        "moreInfo": null,
-                                        "icon": null
-                                    },
-                                    {
-                                        "__typename": "PropertyInfoItem",
-                                        "text": "Dry cleaning/laundry services",
                                         "state": null,
                                         "moreInfo": null,
                                         "icon": null
@@ -1282,6 +1556,13 @@
                                     {
                                         "__typename": "PropertyInfoItem",
                                         "text": "Multilingual staff",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Bike storage",
                                         "state": null,
                                         "moreInfo": null,
                                         "icon": null
@@ -1308,7 +1589,168 @@
                                 "items": [
                                     {
                                         "__typename": "PropertyInfoItem",
+                                        "text": "1 building/tower",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Built in 1975",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
                                         "text": "Safe-deposit box at front desk",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Rooftop garden",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Garden",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Television in common areas",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Bicycle parking",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "At least 80% of food locally-sourced",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Vegetarian dining options",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Annual offsets purchased for at least 10% of carbon footprint",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Humane treatment of captive wild animals",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Locally-owned & organized tours & activities",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Local artist showcase",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "At least 10% of profits reinvested in community & sustainability",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Local culture & ecosystem education",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "100% renewable energy",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Double-glazed windows",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "At least 80% lighting from LEDs",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Comprehensive food waste policy",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "No plastic coffee stirrers",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "No plastic drinking straws",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Water dispenser",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Reusable cups only",
+                                        "state": null,
+                                        "moreInfo": null,
+                                        "icon": null
+                                    },
+                                    {
+                                        "__typename": "PropertyInfoItem",
+                                        "text": "Reusable tableware only",
                                         "state": null,
                                         "moreInfo": null,
                                         "icon": null
@@ -1349,28 +1791,21 @@
                                     },
                                     {
                                         "__typename": "PropertyInfoItem",
-                                        "text": "Wheelchair-accessible path of travel",
+                                        "text": "Wheelchair accessible",
                                         "state": null,
                                         "moreInfo": null,
                                         "icon": null
                                     },
                                     {
                                         "__typename": "PropertyInfoItem",
-                                        "text": "Wheelchair-accessible parking",
+                                        "text": "Wheelchair-accessible registration desk",
                                         "state": null,
                                         "moreInfo": null,
                                         "icon": null
                                     },
                                     {
                                         "__typename": "PropertyInfoItem",
-                                        "text": "Raised toilet seat",
-                                        "state": null,
-                                        "moreInfo": null,
-                                        "icon": null
-                                    },
-                                    {
-                                        "__typename": "PropertyInfoItem",
-                                        "text": "Bathroom emergency pull cord",
+                                        "text": "Wheelchair-accessible lounge",
                                         "state": null,
                                         "moreInfo": null,
                                         "icon": null
@@ -1385,29 +1820,29 @@
                     "__typename": "PropertyLocation",
                     "address": {
                         "__typename": "PropertyAddress",
-                        "addressLine": "Via Flumendosa 35, Milan, MI, 20132",
-                        "city": "Milan",
-                        "province": "MI",
-                        "countryCode": "ITA",
-                        "firstAddressLine": "Via Flumendosa 35",
+                        "addressLine": "Genslerstra\u00dfe 18, Berlin, 13055",
+                        "city": "Berlin",
+                        "province": "",
+                        "countryCode": "DEU",
+                        "firstAddressLine": "Genslerstra\u00dfe 18",
                         "secondAddressLine": ""
                     },
                     "coordinates": {
                         "__typename": "Coordinates",
-                        "latitude": 45.50575,
-                        "longitude": 9.2471
+                        "latitude": 52.539111,
+                        "longitude": 13.498975
                     },
                     "multiCityRegion": {
                         "__typename": "Region",
-                        "id": "180012"
+                        "id": "179892"
                     },
                     "whatsAround": {
                         "__typename": "PropertyWhatsAround",
                         "editorial": {
                             "__typename": "PropertyEditorial",
-                            "title": "Milan",
+                            "title": "Berlin",
                             "content": [
-                                "Hotel Agape is located in Crescenzago, a neighborhood in Milan, and is near a metro station. Carroponte and Teatro degli Arcimboldi are cultural highlights, and travelers looking to shop may want to visit Corso Buenos Aires and Via della Spiga. Leonardo da Vinci Museum of Science and Technology and Acquaworld are also worth visiting. "
+                                "Located near the beach, a&o Berlin Kolumbus is in Lichtenberg neighborhood and is connected to a shopping center. Barnim Nature Park and Gardens of the World reflect the area's natural beauty and area attractions include Zoo Berlin and Tierpark Berlin. Looking to enjoy an event or a game while in town? See what's going on at Olympiastadion, or consider a night out at silent green Kulturquartier. "
                             ]
                         }
                     },
@@ -1431,7 +1866,7 @@
                     "staticImage": {
                         "__typename": "Image",
                         "description": "Map",
-                        "url": "https://maps.googleapis.com/maps/api/staticmap?channel=expedia-HotelInformation&maptype=roadmap&format=jpg&zoom=13&scale=&size=600x120&markers=icon:https://a.travel-assets.com/shopping-pwa/images/his-preview-marker.png%7C45.50575,9.2471&key=AIzaSyCYjQus5kCufOpSj932jFoR_AJiL9yiwOw&signature=0D21z07px5LHpZ9PODxHxiWjHFI=",
+                        "url": "https://maps.googleapis.com/maps/api/staticmap?channel=expedia-HotelInformation&maptype=roadmap&format=jpg&zoom=13&scale=&size=600x120&markers=icon:https://a.travel-assets.com/shopping-pwa/images/his-preview-marker.png%7C52.539111,13.498975&key=AIzaSyCYjQus5kCufOpSj932jFoR_AJiL9yiwOw&signature=7qgYBq0ZhPPqhMHaQDGqYZSM79c=",
                         "aspectRatio": null
                     }
                 },
@@ -1444,551 +1879,791 @@
                 "images": [
                     {
                         "__typename": "PropertyImage",
+                        "accessibilityText": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491173",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/6abff86b.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Front of property, image",
+                        "imageId": "84419458",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/f573fea9.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Front of property"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Triple Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491138",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/733d0089.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Triple Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Daily buffet breakfast (EUR 9.3 per person), image",
+                        "imageId": "84419830",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/642dc52d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Daily buffet breakfast (EUR 9.3 per person)"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Reception, image",
+                        "imageId": "84419459",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/03573719.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Reception"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Shower, eco-friendly toiletries, image",
+                        "imageId": "593491154",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/f8e21e84.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Shower, eco-friendly toiletries"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
                         "accessibilityText": "Lobby, image",
-                        "imageId": null,
+                        "imageId": "84419988",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/a8ecbb00.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/5a0e290e.jpg?impolicy=resizecrop&rw=500&ra=fit",
                             "description": "Lobby"
-                        }
-                    },
-                    {
-                        "__typename": "PropertyImage",
-                        "accessibilityText": "Minibar, in-room safe, desk, laptop workspace, image",
-                        "imageId": null,
-                        "image": {
-                            "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/90eaf7d0.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Minibar, in-room safe, desk, laptop workspace"
-                        }
-                    },
-                    {
-                        "__typename": "PropertyImage",
-                        "accessibilityText": "Triple Room | Minibar, in-room safe, desk, laptop workspace, image",
-                        "imageId": null,
-                        "image": {
-                            "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/1271d9b1.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Triple Room | Minibar, in-room safe, desk, laptop workspace"
-                        }
-                    },
-                    {
-                        "__typename": "PropertyImage",
-                        "accessibilityText": "Superior Double Room | Minibar, in-room safe, desk, laptop workspace, image",
-                        "imageId": null,
-                        "image": {
-                            "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/7d641747.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Superior Double Room | Minibar, in-room safe, desk, laptop workspace"
-                        }
-                    },
-                    {
-                        "__typename": "PropertyImage",
-                        "accessibilityText": "Minibar, in-room safe, desk, laptop workspace, image",
-                        "imageId": null,
-                        "image": {
-                            "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/e9891596.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Minibar, in-room safe, desk, laptop workspace"
-                        }
-                    },
-                    {
-                        "__typename": "PropertyImage",
-                        "accessibilityText": "Triple Room | Minibar, in-room safe, desk, laptop workspace, image",
-                        "imageId": null,
-                        "image": {
-                            "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/a160d3eb.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Triple Room | Minibar, in-room safe, desk, laptop workspace"
-                        }
-                    },
-                    {
-                        "__typename": "PropertyImage",
-                        "accessibilityText": "Shower, free toiletries, hair dryer, image",
-                        "imageId": null,
-                        "image": {
-                            "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/865ac266.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Shower, free toiletries, hair dryer"
-                        }
-                    },
-                    {
-                        "__typename": "PropertyImage",
-                        "accessibilityText": "Shower, free toiletries, hair dryer, image",
-                        "imageId": null,
-                        "image": {
-                            "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/79f05ad6.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Shower, free toiletries, hair dryer"
-                        }
-                    },
-                    {
-                        "__typename": "PropertyImage",
-                        "accessibilityText": "Terrace/patio, image",
-                        "imageId": null,
-                        "image": {
-                            "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/5c9d9e72.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Terrace/patio"
-                        }
-                    },
-                    {
-                        "__typename": "PropertyImage",
-                        "accessibilityText": "Porch, image",
-                        "imageId": null,
-                        "image": {
-                            "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/be02246b.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Porch"
-                        }
-                    },
-                    {
-                        "__typename": "PropertyImage",
-                        "accessibilityText": "Terrace/patio, image",
-                        "imageId": null,
-                        "image": {
-                            "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/3e70ae3b.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Terrace/patio"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
                         "accessibilityText": "Bar (on property), image",
-                        "imageId": null,
+                        "imageId": "84419055",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/0a9b9af0.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/7994f524.jpg?impolicy=resizecrop&rw=500&ra=fit",
                             "description": "Bar (on property)"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Property entrance, image",
+                        "imageId": "84419667",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/8af45046.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Property entrance"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Lobby sitting area, image",
+                        "imageId": "593491181",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/b7b105e4.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Lobby sitting area"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "460496111",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/08a626b6.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Triple Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491140",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/dc30e26c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Triple Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Quadruple Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491141",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/e866ff1e.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Quadruple Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Lobby sitting area, image",
+                        "imageId": "84420177",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/67cd476f.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Lobby sitting area"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Daily buffet breakfast (EUR 9.3 per person), image",
+                        "imageId": "84420244",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/12542d1a.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Daily buffet breakfast (EUR 9.3 per person)"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Lobby sitting area, image",
+                        "imageId": "593491187",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/4f10d66c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Lobby sitting area"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Daily buffet breakfast (EUR 9.3 per person), image",
+                        "imageId": "84419703",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/1fa1ded6.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Daily buffet breakfast (EUR 9.3 per person)"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
                         "accessibilityText": "Bar (on property), image",
-                        "imageId": null,
+                        "imageId": "593491180",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/6f0d7342.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/d925ce6a.jpg?impolicy=resizecrop&rw=500&ra=fit",
                             "description": "Bar (on property)"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Restaurant, image",
-                        "imageId": null,
+                        "accessibilityText": "Shower, eco-friendly toiletries, image",
+                        "imageId": "22142443",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/2a796319.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Restaurant"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/774d1e95.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Shower, eco-friendly toiletries"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Restaurant, image",
-                        "imageId": null,
+                        "accessibilityText": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491188",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/0f71c6b4.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Restaurant"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/2473ee39.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Restaurant, image",
-                        "imageId": null,
+                        "accessibilityText": "Meeting facility, image",
+                        "imageId": "84419814",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/12e961ce.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Restaurant"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/361707d5.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Meeting facility"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Spa, image",
-                        "imageId": null,
+                        "accessibilityText": "Quadruple Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491153",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/4dba4852.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Spa"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/a2057925.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Quadruple Room | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Spa, image",
-                        "imageId": null,
+                        "accessibilityText": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "460496115",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/3557f486.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Spa"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/b00bac62.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Spa, image",
-                        "imageId": null,
+                        "accessibilityText": "One Bed in Shared Dormitory (for 6 people) | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491166",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/8bc79bcd.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Spa"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/2c14e2b5.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "One Bed in Shared Dormitory (for 6 people) | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Lobby, image",
-                        "imageId": null,
+                        "accessibilityText": "Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491147",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/813d10e4.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Lobby"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/0ec34e4f.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Lobby, image",
-                        "imageId": null,
+                        "accessibilityText": "Family Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491146",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/0979f876.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Lobby"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/4793100c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Family Room | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Lobby, image",
-                        "imageId": null,
+                        "accessibilityText": "Children's area, image",
+                        "imageId": "84418821",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/196bbfd6.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Lobby"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/1c4d6690.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Children's area"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Lobby, image",
-                        "imageId": null,
+                        "accessibilityText": "Quadruple Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491156",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/0d65b05d.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Lobby"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/fba49fe1.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Quadruple Room | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Business center, image",
-                        "imageId": null,
+                        "accessibilityText": "Bicycling, image",
+                        "imageId": "414140616",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/43f8bf94.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Business center"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/a5fc38f9.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Bicycling"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Business center, image",
-                        "imageId": null,
+                        "accessibilityText": "Children's play area - indoor, image",
+                        "imageId": "84418417",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/61c9b267.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Business center"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/798233c1.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Children's play area - indoor"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Interior detail, image",
-                        "imageId": null,
+                        "accessibilityText": "One Bed in Shared Dormitory (for 6 people) | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491186",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/a7e78df3.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Interior detail"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/25d5c115.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "One Bed in Shared Dormitory (for 6 people) | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Property amenity, image",
-                        "imageId": null,
+                        "accessibilityText": "Quadruple Room | Bathroom | Shower, eco-friendly toiletries, image",
+                        "imageId": "593491165",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/5a4273f3.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Property amenity"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/483539c6.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Quadruple Room | Bathroom | Shower, eco-friendly toiletries"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Superior Double Room | Minibar, in-room safe, desk, laptop workspace, image",
-                        "imageId": null,
+                        "accessibilityText": "Single Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "460496276",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/8c16ba00.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Superior Double Room | Minibar, in-room safe, desk, laptop workspace"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/8000ee75.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Single Room | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Quadruple Room | Minibar, in-room safe, desk, laptop workspace, image",
-                        "imageId": null,
+                        "accessibilityText": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491174",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/7224ff11.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Quadruple Room | Minibar, in-room safe, desk, laptop workspace"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/358f8fac.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Minibar, in-room safe, desk, laptop workspace, image",
-                        "imageId": null,
+                        "accessibilityText": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "460496116",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/c05c1dcc.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Minibar, in-room safe, desk, laptop workspace"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/fd43ac9b.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Triple Room | Minibar, in-room safe, desk, laptop workspace, image",
-                        "imageId": null,
+                        "accessibilityText": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "460496117",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/f5800d26.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Triple Room | Minibar, in-room safe, desk, laptop workspace"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/6c02399e.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Standard Double Room | Minibar, in-room safe, desk, laptop workspace, image",
-                        "imageId": null,
+                        "accessibilityText": "Daily buffet breakfast (EUR 9.3 per person), image",
+                        "imageId": "84420210",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/a9c36ca9.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Standard Double Room | Minibar, in-room safe, desk, laptop workspace"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/6e5d2b3d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Daily buffet breakfast (EUR 9.3 per person)"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Shower, free toiletries, hair dryer, image",
-                        "imageId": null,
+                        "accessibilityText": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491169",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/2fe7a106.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Shower, free toiletries, hair dryer"
-                        }
-                    },
-                    {
-                        "__typename": "PropertyImage",
-                        "accessibilityText": "Shower, free toiletries, hair dryer, image",
-                        "imageId": null,
-                        "image": {
-                            "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/541f818c.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Shower, free toiletries, hair dryer"
-                        }
-                    },
-                    {
-                        "__typename": "PropertyImage",
-                        "accessibilityText": "Front of property - evening/night, image",
-                        "imageId": null,
-                        "image": {
-                            "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/0fd116ca.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Front of property - evening/night"
-                        }
-                    },
-                    {
-                        "__typename": "PropertyImage",
-                        "accessibilityText": "Exterior, image",
-                        "imageId": null,
-                        "image": {
-                            "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/805f1b71.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Exterior"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/720dc2e9.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
                         "accessibilityText": "Bar (on property), image",
-                        "imageId": null,
+                        "imageId": "84418948",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/99d71735.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/1409ebca.jpg?impolicy=resizecrop&rw=500&ra=fit",
                             "description": "Bar (on property)"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Bar (on property), image",
-                        "imageId": null,
+                        "accessibilityText": "Meeting facility, image",
+                        "imageId": "84419822",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/66570256.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Bar (on property)"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/8b975f05.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Meeting facility"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Spa, image",
-                        "imageId": null,
+                        "accessibilityText": "Daily buffet breakfast (EUR 9.3 per person), image",
+                        "imageId": "84419964",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/fcfbb572.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Spa"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/65de3379.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Daily buffet breakfast (EUR 9.3 per person)"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Spa, image",
-                        "imageId": null,
+                        "accessibilityText": "Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "460496109",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/c7a78785.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Spa"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/934852fa.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Lobby, image",
-                        "imageId": null,
+                        "accessibilityText": "Shower, eco-friendly toiletries, image",
+                        "imageId": "593491155",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/1ee06ea0.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Lobby"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/9b6d722f.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Shower, eco-friendly toiletries"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Lobby, image",
-                        "imageId": null,
+                        "accessibilityText": "Children's play area - indoor, image",
+                        "imageId": "84418316",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/c3c6323a.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Lobby"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/ec8dc089.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Children's play area - indoor"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Business center, image",
-                        "imageId": null,
+                        "accessibilityText": "Billiards, image",
+                        "imageId": "84418559",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/55a0dfb5.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Business center"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/2703cba2.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Billiards"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Minibar, in-room safe, desk, laptop workspace, image",
-                        "imageId": null,
+                        "accessibilityText": "Billiards, image",
+                        "imageId": "84418190",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/b3b67ca3.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Minibar, in-room safe, desk, laptop workspace"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/79445edd.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Billiards"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Minibar, in-room safe, desk, laptop workspace, image",
-                        "imageId": null,
+                        "accessibilityText": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491184",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/29827e9d.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Minibar, in-room safe, desk, laptop workspace"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/e9fdffda.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Superior Single Room | Minibar, in-room safe, desk, laptop workspace, image",
-                        "imageId": null,
+                        "accessibilityText": "Family Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491159",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/05aa97cd.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Superior Single Room | Minibar, in-room safe, desk, laptop workspace"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/d44b117f.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Family Room | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Minibar, in-room safe, desk, laptop workspace, image",
-                        "imageId": null,
+                        "accessibilityText": "Family Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491171",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/ab2db8de.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Minibar, in-room safe, desk, laptop workspace"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/a538e0be.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Family Room | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Shower, free toiletries, hair dryer, image",
-                        "imageId": null,
+                        "accessibilityText": "Shower, eco-friendly toiletries, image",
+                        "imageId": "22139699",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/73a78e47.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Shower, free toiletries, hair dryer"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/45c8ec42.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Shower, eco-friendly toiletries"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Shower, free toiletries, hair dryer, image",
-                        "imageId": null,
+                        "accessibilityText": "Family Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491151",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/1dbbc8eb.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Shower, free toiletries, hair dryer"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/791735f0.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Family Room | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Bar (on property), image",
-                        "imageId": null,
+                        "accessibilityText": "Family Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491142",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/707c062c.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Bar (on property)"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/04eb2a31.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Family Room | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Bar (on property), image",
-                        "imageId": null,
+                        "accessibilityText": "Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491149",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/3d590c8c.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Bar (on property)"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/765dbd4a.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Shower, free toiletries, hair dryer, image",
-                        "imageId": null,
+                        "accessibilityText": "Family Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491158",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/9386ba85.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Shower, free toiletries, hair dryer"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/6f765db9.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Family Room | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Shower, free toiletries, hair dryer, image",
-                        "imageId": null,
+                        "accessibilityText": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491170",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/2572f8ec.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Shower, free toiletries, hair dryer"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/6f3fc657.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     },
                     {
                         "__typename": "PropertyImage",
-                        "accessibilityText": "Lounge, image",
-                        "imageId": null,
+                        "accessibilityText": "Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491145",
                         "image": {
                             "__typename": "Image",
-                            "url": "https://images.trvl-media.com/lodging/1000000/920000/911500/911434/6eed9aa2.jpg?impolicy=resizecrop&rw=500&ra=fit",
-                            "description": "Lounge"
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/d186228f.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Single Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "460496113",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/edd885ef.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Single Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Triple Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491139",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/79c7d391.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Triple Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491182",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/f6b40a54.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491163",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/c219e695.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Quadruple Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491152",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/f6d1371c.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Quadruple Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491164",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/b6def354.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Single Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "460496266",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/a5db0e78.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Single Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "460496110",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/ea973572.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "One Bed in Shared Dormitory (for 6 people) | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "460496112",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/f6633029.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "One Bed in Shared Dormitory (for 6 people) | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "460496114",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/e2b830a4.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "595094875",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/d2a99eff.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491148",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/4358a1cc.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Quadruple Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491150",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/367cf2cd.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Quadruple Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Triple Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491168",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/5f8b1b3d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Triple Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491161",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/9ba13d74.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491162",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/ea889a19.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491144",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/2349bbc9.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491160",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/37f1d24b.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "One Bed in Shared Dormitory (for 6 people) | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491172",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/7922a8b5.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "One Bed in Shared Dormitory (for 6 people) | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Family Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491143",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/fe814fc3.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Family Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Quadruple Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491167",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/3cc03cf7.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Quadruple Room | Desk, blackout drapes, free WiFi, wheelchair access"
+                        }
+                    },
+                    {
+                        "__typename": "PropertyImage",
+                        "accessibilityText": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access, image",
+                        "imageId": "593491179",
+                        "image": {
+                            "__typename": "Image",
+                            "url": "https://images.trvl-media.com/lodging/1000000/800000/796500/796459/13a03d73.jpg?impolicy=resizecrop&rw=500&ra=fit",
+                            "description": "Twin Room | Desk, blackout drapes, free WiFi, wheelchair access"
                         }
                     }
                 ],
-                "accessibilityLabel": "Photo gallery for Hotel Agape",
+                "accessibilityLabel": "Photo gallery for a&o Berlin Kolumbus",
                 "thumbnailGalleryDialog": {
                     "__typename": "LodgingGalleryDialog",
                     "trigger": {
                         "__typename": "LodgingDialogTriggerMessage",
-                        "value": "53+",
+                        "value": "77+",
                         "icon": {
                             "__typename": "Icon",
                             "id": "photo_library",
@@ -2001,7 +2676,7 @@
                     },
                     "toolbar": {
                         "__typename": "LodgingDialogToolbar",
-                        "title": "Hotel Agape",
+                        "title": "a&o Berlin Kolumbus",
                         "icon": {
                             "__typename": "Icon",
                             "id": "arrow_back",
@@ -2017,13 +2692,13 @@
                     "__typename": "LodgingGalleryDialog",
                     "trigger": {
                         "__typename": "LodgingDialogTriggerMessage",
-                        "value": "53+",
+                        "value": "77+",
                         "icon": null,
                         "clientSideAnalytics": null
                     },
                     "toolbar": {
                         "__typename": "LodgingDialogToolbar",
-                        "title": "Hotel Agape",
+                        "title": "a&o Berlin Kolumbus",
                         "icon": {
                             "__typename": "Icon",
                             "id": "close",
@@ -2042,18 +2717,15 @@
                     "__typename": "PropertyReviewSummary",
                     "overallScoreWithDescriptionA11y": {
                         "__typename": "LodgingEnrichedMessage",
-                        "value": "7.6/10 Good"
+                        "value": "7.0/10 Good"
                     },
                     "propertyReviewCountDetails": {
                         "__typename": "PropertyReviewCountDetails",
-                        "shortDescription": "See all 213 reviews"
+                        "shortDescription": "All reviews (727)"
                     },
                     "highlightMessage": {
                         "__typename": "MessageResult",
-                        "subtitle": {
-                            "__typename": "MessagingResultTitle",
-                            "text": "213 verified Hotels.com guest reviews"
-                        }
+                        "subtitle": null
                     },
                     "seeAllAction": {
                         "__typename": "PropertyFilteredReviewsDialog",
@@ -2116,36 +2788,6 @@
                                                                 "icon": null
                                                             },
                                                             "secondary": null
-                                                        },
-                                                        {
-                                                            "__typename": "PropertyContentText",
-                                                            "primary": {
-                                                                "__typename": "LodgingEnrichedMessage",
-                                                                "value": "High-touch surfaces are cleaned and disinfected",
-                                                                "accessibilityLabel": null,
-                                                                "icon": null
-                                                            },
-                                                            "secondary": null
-                                                        },
-                                                        {
-                                                            "__typename": "PropertyContentText",
-                                                            "primary": {
-                                                                "__typename": "LodgingEnrichedMessage",
-                                                                "value": "Sheets and towels are washed at 60\u00b0C/140\u00b0F or hotter",
-                                                                "accessibilityLabel": null,
-                                                                "icon": null
-                                                            },
-                                                            "secondary": null
-                                                        },
-                                                        {
-                                                            "__typename": "PropertyContentText",
-                                                            "primary": {
-                                                                "__typename": "LodgingEnrichedMessage",
-                                                                "value": "Follows regional cleaning and disinfection practices of Safe Hospitality National Protocol (Italy)",
-                                                                "accessibilityLabel": null,
-                                                                "icon": null
-                                                            },
-                                                            "secondary": null
                                                         }
                                                     ]
                                                 }
@@ -2178,6 +2820,16 @@
                                                 {
                                                     "__typename": "PropertyContentItemTexts",
                                                     "contents": [
+                                                        {
+                                                            "__typename": "PropertyContentText",
+                                                            "primary": {
+                                                                "__typename": "LodgingEnrichedMessage",
+                                                                "value": "Contactless check-out",
+                                                                "accessibilityLabel": null,
+                                                                "icon": null
+                                                            },
+                                                            "secondary": null
+                                                        },
                                                         {
                                                             "__typename": "PropertyContentText",
                                                             "primary": {
@@ -2243,17 +2895,7 @@
                                                             "__typename": "PropertyContentText",
                                                             "primary": {
                                                                 "__typename": "LodgingEnrichedMessage",
-                                                                "value": "Temperature checks given to staff",
-                                                                "accessibilityLabel": null,
-                                                                "icon": null
-                                                            },
-                                                            "secondary": null
-                                                        },
-                                                        {
-                                                            "__typename": "PropertyContentText",
-                                                            "primary": {
-                                                                "__typename": "LodgingEnrichedMessage",
-                                                                "value": "Temperature checks available for guests",
+                                                                "value": "Masks and gloves available",
                                                                 "accessibilityLabel": null,
                                                                 "icon": null
                                                             },
@@ -2345,7 +2987,7 @@
                                             "__typename": "PropertyContent",
                                             "header": {
                                                 "__typename": "LodgingHeader",
-                                                "text": "Hotel Agape",
+                                                "text": "a&o Berlin Kolumbus",
                                                 "subText": null,
                                                 "icon": null,
                                                 "headerImage": null
@@ -2355,7 +2997,7 @@
                                                     "__typename": "PropertyContentItemMarkup",
                                                     "content": {
                                                         "__typename": "MarkupText",
-                                                        "text": "Hotel Agape puts you within a 15-minute drive of Cathedral of Milan and Piazza del Duomo. You can unwind with a drink at the bar/lounge, and buffet breakfast is available daily. This upscale hotel is also 5.1 mi (8.2 km) from Teatro alla Scala and 5.1 mi (8.3 km) from Galleria Vittorio Emanuele II. The nice bathrooms and breakfast get good marks from fellow travelers. Public transportation is just a short walk: Crescenzago Station is steps away and Cimiano Station is 11 minutes.   ",
+                                                        "text": "When you stay at a&o Berlin Kolumbus, you'll be within a 15-minute drive of Alexanderplatz and Checkpoint Charlie. You can unwind with a drink at the bar/lounge, and buffet breakfast is available daily. Other highlights include a snack bar/deli and a garden. Fellow travelers like the helpful staff and family-friendly amenities. The property is just a short walk to public transportation: Genslerstra\u00dfe Tram Stop is 7 minutes and Arendsweg Tram Stop is 10 minutes.   ",
                                                         "markupType": "HTML"
                                                     }
                                                 }
@@ -2384,7 +3026,7 @@
                                                         "__typename": "PropertyContentText",
                                                         "primary": {
                                                             "__typename": "LodgingEnrichedMessage",
-                                                            "value": "English, Italian, Russian",
+                                                            "value": "English, German, Polish, Russian, Spanish",
                                                             "accessibilityLabel": null,
                                                             "icon": null
                                                         },
@@ -2442,36 +3084,6 @@
                                                                 "icon": null
                                                             },
                                                             "secondary": null
-                                                        },
-                                                        {
-                                                            "__typename": "PropertyContentText",
-                                                            "primary": {
-                                                                "__typename": "LodgingEnrichedMessage",
-                                                                "value": "High-touch surfaces are cleaned and disinfected",
-                                                                "accessibilityLabel": null,
-                                                                "icon": null
-                                                            },
-                                                            "secondary": null
-                                                        },
-                                                        {
-                                                            "__typename": "PropertyContentText",
-                                                            "primary": {
-                                                                "__typename": "LodgingEnrichedMessage",
-                                                                "value": "Sheets and towels are washed at 60\u00b0C/140\u00b0F or hotter",
-                                                                "accessibilityLabel": null,
-                                                                "icon": null
-                                                            },
-                                                            "secondary": null
-                                                        },
-                                                        {
-                                                            "__typename": "PropertyContentText",
-                                                            "primary": {
-                                                                "__typename": "LodgingEnrichedMessage",
-                                                                "value": "Follows regional cleaning and disinfection practices of Safe Hospitality National Protocol (Italy)",
-                                                                "accessibilityLabel": null,
-                                                                "icon": null
-                                                            },
-                                                            "secondary": null
                                                         }
                                                     ]
                                                 }
@@ -2504,6 +3116,16 @@
                                                 {
                                                     "__typename": "PropertyContentItemTexts",
                                                     "contents": [
+                                                        {
+                                                            "__typename": "PropertyContentText",
+                                                            "primary": {
+                                                                "__typename": "LodgingEnrichedMessage",
+                                                                "value": "Contactless check-out",
+                                                                "accessibilityLabel": null,
+                                                                "icon": null
+                                                            },
+                                                            "secondary": null
+                                                        },
                                                         {
                                                             "__typename": "PropertyContentText",
                                                             "primary": {
@@ -2569,17 +3191,7 @@
                                                             "__typename": "PropertyContentText",
                                                             "primary": {
                                                                 "__typename": "LodgingEnrichedMessage",
-                                                                "value": "Temperature checks given to staff",
-                                                                "accessibilityLabel": null,
-                                                                "icon": null
-                                                            },
-                                                            "secondary": null
-                                                        },
-                                                        {
-                                                            "__typename": "PropertyContentText",
-                                                            "primary": {
-                                                                "__typename": "LodgingEnrichedMessage",
-                                                                "value": "Temperature checks available for guests",
+                                                                "value": "Masks and gloves available",
                                                                 "accessibilityLabel": null,
                                                                 "icon": null
                                                             },
@@ -2689,7 +3301,7 @@
                                                     "__typename": "PropertyContentItemMarkup",
                                                     "content": {
                                                         "__typename": "MarkupText",
-                                                        "text": "<ul><li><strong>A tax</strong> is imposed by the city: EUR 5.00 per person, per night. This tax does not apply to children under 18 years of age. </li></ul>",
+                                                        "text": "<ul><li><strong>A city tax</strong> is imposed by the city of Berlin. Business travelers with proof of business-related travel are exempt from this tax. For more details, please contact the property using the information on the reservation confirmation received after booking. </li><li>An effective <strong>city/local tax</strong> rate of 4.67 percent will be charged</li></ul>",
                                                         "markupType": "HTML"
                                                     }
                                                 }
@@ -2716,7 +3328,7 @@
                                                     "__typename": "PropertyContentItemMarkup",
                                                     "content": {
                                                         "__typename": "MarkupText",
-                                                        "text": "<ul><li><strong>Buffet breakfast</strong> is offered for an extra charge of approximately EUR 13.5 for adults and EUR 5 for children</li> </ul>",
+                                                        "text": "<ul><li><strong>Buffet breakfast</strong> is offered for an extra charge of approximately EUR 9.3 for adults and EUR 4.65 for children</li><li><strong>Early check-in</strong> can be arranged for an extra charge of EUR 12.50 (subject to availability)</li><li><strong>Late check-out</strong> can be arranged for an extra charge of EUR 12.50 (subject to availability)</li> </ul>",
                                                         "markupType": "HTML"
                                                     }
                                                 }
@@ -2733,7 +3345,7 @@
                                             "__typename": "PropertyContent",
                                             "header": {
                                                 "__typename": "LodgingHeader",
-                                                "text": "Children & extra beds",
+                                                "text": "Pets",
                                                 "subText": null,
                                                 "icon": null,
                                                 "headerImage": null
@@ -2743,7 +3355,7 @@
                                                     "__typename": "PropertyContentItemMarkup",
                                                     "content": {
                                                         "__typename": "MarkupText",
-                                                        "text": "<ul><li>All guests, including children, must be present at check-in and show their government-issued photo ID card or passport</li></ul>",
+                                                        "text": "<ul><li>Pets are allowed for an extra charge of EUR 12.50 per pet, per night</li></ul>",
                                                         "markupType": "HTML"
                                                     }
                                                 }
@@ -2770,7 +3382,7 @@
                                                     "__typename": "PropertyContentItemMarkup",
                                                     "content": {
                                                         "__typename": "MarkupText",
-                                                        "text": "<ul><li>Self parking costs EUR 15 per day</li></ul>",
+                                                        "text": "<ul><li>Self parking costs EUR 6 per day with in/out privileges</li></ul>",
                                                         "markupType": "HTML"
                                                     }
                                                 }
@@ -2797,7 +3409,7 @@
                                                     "__typename": "PropertyContentItemMarkup",
                                                     "content": {
                                                         "__typename": "MarkupText",
-                                                        "text": "<p>This property advises that enhanced cleaning and guest safety measures are currently in place.</p><p>Disinfectant is used to clean the property; commonly-touched surfaces are cleaned with disinfectant between stays; bed sheets and towels are laundered at a temperature of at least 60\u00b0C/140\u00b0F.</p><p>Social distancing measures are in place; staff at the property wear personal protective equipment; a shield is in place between staff and guests in main contact areas; periodic temperature checks are conducted on staff; temperature checks are available to guests; guests are provided with hand sanitizer.</p><p>Individually-wrapped food options are available for breakfast.</p><p>This property affirms that it follows the cleaning and disinfection practices of Safe Hospitality National Protocol (Italy).</p>",
+                                                        "text": "<p>This property advises that enhanced cleaning and guest safety measures are currently in place.</p><p>Disinfectant is used to clean the property.</p><p>Personal protective equipment, including masks and gloves, will be available to guests.</p><p>Social distancing measures are in place; staff at the property wear personal protective equipment; a shield is in place between staff and guests in main contact areas; guests are provided with hand sanitizer.</p><p>Contactless check-out is available.</p><p>Individually-wrapped food options are available for breakfast.</p>",
                                                         "markupType": "HTML"
                                                     }
                                                 }
@@ -2827,7 +3439,7 @@
                                                             "__typename": "PropertyContentText",
                                                             "primary": {
                                                                 "__typename": "LodgingEnrichedMessage",
-                                                                "value": "<p>Noise-free guestrooms cannot be guaranteed. </p><p>Guests can rest easy knowing there's a fire extinguisher, a smoke detector, and a first aid kit on site. </p><p>Please note that cultural norms and guest policies may differ by country and by property. The policies listed are provided by the property. </p><p>This property accepts credit cards. Cash is not accepted.</p><p>Cash transactions at this property cannot exceed EUR 5000, due to national regulations. For further details, please contact the property using information in the booking confirmation. </p>",
+                                                                "value": "<p>This property uses solar energy, plus eco-friendly cleaning products. </p><p>Please note that cultural norms and guest policies may differ by country and by property. The policies listed are provided by the property. </p><p>This property accepts credit cards, debit cards and cash.</p>",
                                                                 "accessibilityLabel": null,
                                                                 "icon": null
                                                             },
@@ -2860,7 +3472,7 @@
                                                         "__typename": "PropertyContentText",
                                                         "primary": {
                                                             "__typename": "LodgingEnrichedMessage",
-                                                            "value": "Agape Hotel",
+                                                            "value": "Hotel Kolumbus",
                                                             "accessibilityLabel": null,
                                                             "icon": null
                                                         },
@@ -2873,7 +3485,7 @@
                                                         "__typename": "PropertyContentText",
                                                         "primary": {
                                                             "__typename": "LodgingEnrichedMessage",
-                                                            "value": "Agape Milan",
+                                                            "value": "Hotel Kolumbus Berlin",
                                                             "accessibilityLabel": null,
                                                             "icon": null
                                                         },
@@ -2886,7 +3498,7 @@
                                                         "__typename": "PropertyContentText",
                                                         "primary": {
                                                             "__typename": "LodgingEnrichedMessage",
-                                                            "value": "Hotel Agape",
+                                                            "value": "Kolumbus Berlin",
                                                             "accessibilityLabel": null,
                                                             "icon": null
                                                         },
@@ -2899,7 +3511,7 @@
                                                         "__typename": "PropertyContentText",
                                                         "primary": {
                                                             "__typename": "LodgingEnrichedMessage",
-                                                            "value": "Hotel Agape Milan",
+                                                            "value": "Kolumbus Hotel",
                                                             "accessibilityLabel": null,
                                                             "icon": null
                                                         },
@@ -2912,7 +3524,7 @@
                                                         "__typename": "PropertyContentText",
                                                         "primary": {
                                                             "__typename": "LodgingEnrichedMessage",
-                                                            "value": "Hotel Agape Hotel",
+                                                            "value": "Akzent Hotel Berlin",
                                                             "accessibilityLabel": null,
                                                             "icon": null
                                                         },
@@ -2925,7 +3537,7 @@
                                                         "__typename": "PropertyContentText",
                                                         "primary": {
                                                             "__typename": "LodgingEnrichedMessage",
-                                                            "value": "Hotel Agape Milan",
+                                                            "value": "A&O Berlin Kolumbus Hotel",
                                                             "accessibilityLabel": null,
                                                             "icon": null
                                                         },
@@ -2938,7 +3550,72 @@
                                                         "__typename": "PropertyContentText",
                                                         "primary": {
                                                             "__typename": "LodgingEnrichedMessage",
-                                                            "value": "Hotel Agape Hotel Milan",
+                                                            "value": "A&O Kolumbus Hotel",
+                                                            "accessibilityLabel": null,
+                                                            "icon": null
+                                                        },
+                                                        "secondary": null
+                                                    }
+                                                },
+                                                {
+                                                    "__typename": "PropertyContentItemText",
+                                                    "content": {
+                                                        "__typename": "PropertyContentText",
+                                                        "primary": {
+                                                            "__typename": "LodgingEnrichedMessage",
+                                                            "value": "A&O Berlin Kolumbus",
+                                                            "accessibilityLabel": null,
+                                                            "icon": null
+                                                        },
+                                                        "secondary": null
+                                                    }
+                                                },
+                                                {
+                                                    "__typename": "PropertyContentItemText",
+                                                    "content": {
+                                                        "__typename": "PropertyContentText",
+                                                        "primary": {
+                                                            "__typename": "LodgingEnrichedMessage",
+                                                            "value": "A&O Kolumbus",
+                                                            "accessibilityLabel": null,
+                                                            "icon": null
+                                                        },
+                                                        "secondary": null
+                                                    }
+                                                },
+                                                {
+                                                    "__typename": "PropertyContentItemText",
+                                                    "content": {
+                                                        "__typename": "PropertyContentText",
+                                                        "primary": {
+                                                            "__typename": "LodgingEnrichedMessage",
+                                                            "value": "a&o Berlin Kolumbus Hotel",
+                                                            "accessibilityLabel": null,
+                                                            "icon": null
+                                                        },
+                                                        "secondary": null
+                                                    }
+                                                },
+                                                {
+                                                    "__typename": "PropertyContentItemText",
+                                                    "content": {
+                                                        "__typename": "PropertyContentText",
+                                                        "primary": {
+                                                            "__typename": "LodgingEnrichedMessage",
+                                                            "value": "a&o Berlin Kolumbus Berlin",
+                                                            "accessibilityLabel": null,
+                                                            "icon": null
+                                                        },
+                                                        "secondary": null
+                                                    }
+                                                },
+                                                {
+                                                    "__typename": "PropertyContentItemText",
+                                                    "content": {
+                                                        "__typename": "PropertyContentText",
+                                                        "primary": {
+                                                            "__typename": "LodgingEnrichedMessage",
+                                                            "value": "a&o Berlin Kolumbus Hotel Berlin",
                                                             "accessibilityLabel": null,
                                                             "icon": null
                                                         },

@@ -1,0 +1,33 @@
+{
+    "city":"Barcelona",
+    "data":[
+        {
+            "id":"3780",
+            "name":"Hotel Arts Barcelona",
+            "image":"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/1000000/10000/3800/3780/941565e7_b.jpg",
+            "price_per_day":"$2,479",
+            "price_all":"$13,708 total"
+        },
+        {
+            "id":"152",
+            "name":"Melia Barcelona Sarri\u00e0",
+            "image":"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/1000000/10000/200/152/06e7e8aa_b.jpg",
+            "price_per_day":"$520",
+            "price_all":"$2,650 total"
+        },
+        {
+            "id":"190688",
+            "name":"Aparthotel Atenea Calabria",
+            "image":"https://images.trvl-media.com/lodging/1000000/200000/190700/190688/0b2ca002.jpg?impolicy=resizecrop&rw=455&ra=fit",
+            "price_per_day":"$301",
+            "price_all":"$1,503 total"
+        },
+        {
+            "id":"39067368",
+            "name":"Nobu Hotel Barcelona",
+            "image":"https://images.trvl-media.com/lodging/40000000/39070000/39067400/39067368/52fd0f92.jpg?impolicy=resizecrop&rw=455&ra=fit",
+            "price_per_day":"$431",
+            "price_all":"$2,447 total"
+        }
+    ]
+}
