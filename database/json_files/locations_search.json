@@ -1,0 +1,302 @@
+{
+    "q": "Barcelona",
+    "rid": "fb1021bd36474701b5b95aaaffad1b99",
+    "rc": "OK",
+    "sr": [
+        {
+            "@type": "gaiaRegionResult",
+            "index": "0",
+            "gaiaId": "513",
+            "type": "CITY",
+            "regionNames": {
+                "fullName": "Barcelona, Barcelona, Catalonia, Spain",
+                "shortName": "Barcelona",
+                "displayName": "Barcelona, Barcelona, Catalonia, Spain",
+                "primaryDisplayName": "Barcelona",
+                "secondaryDisplayName": "Barcelona, Catalonia, Spain",
+                "lastSearchName": "Barcelona"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "513"
+            },
+            "coordinates": {
+                "lat": "41.384988",
+                "long": "2.174263"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "Spain",
+                    "isoCode2": "ES",
+                    "isoCode3": "ESP"
+                }
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "1",
+            "gaiaId": "6220952",
+            "type": "NEIGHBORHOOD",
+            "regionNames": {
+                "fullName": "Downtown Barcelona, Barcelona, Catalonia, Spain",
+                "shortName": "Downtown Barcelona",
+                "displayName": "Downtown Barcelona, Barcelona, Catalonia, Spain",
+                "primaryDisplayName": "Downtown Barcelona",
+                "secondaryDisplayName": "Barcelona, Catalonia, Spain",
+                "lastSearchName": "Downtown Barcelona"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "6220952"
+            },
+            "coordinates": {
+                "lat": "41.382208620304056",
+                "long": "2.1744360813955574"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "Spain",
+                    "isoCode2": "ES",
+                    "isoCode3": "ESP"
+                }
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "2",
+            "gaiaId": "6046261",
+            "type": "NEIGHBORHOOD",
+            "regionNames": {
+                "fullName": "Gothic Quarter, Barcelona, Catalonia, Spain",
+                "shortName": "Gothic Quarter",
+                "displayName": "Gothic Quarter, Barcelona, Catalonia, Spain",
+                "primaryDisplayName": "Gothic Quarter",
+                "secondaryDisplayName": "Barcelona, Catalonia, Spain",
+                "lastSearchName": "Gothic Quarter"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "6046261"
+            },
+            "coordinates": {
+                "lat": "41.383395",
+                "long": "2.176912"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "Spain",
+                    "isoCode2": "ES",
+                    "isoCode3": "ESP"
+                }
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "3",
+            "gaiaId": "5129026",
+            "type": "AIRPORT",
+            "regionNames": {
+                "fullName": "Barcelona, Spain (BCN-Barcelona Intl.)",
+                "shortName": "Barcelona (BCN-Barcelona Intl.)",
+                "displayName": "Barcelona (BCN - Barcelona Intl.), Spain",
+                "primaryDisplayName": "Barcelona (BCN - Barcelona Intl.)",
+                "secondaryDisplayName": "Spain",
+                "lastSearchName": "Barcelona (BCN - Barcelona Intl.)"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "5129026"
+            },
+            "coordinates": {
+                "lat": "41.302897",
+                "long": "2.076833"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "Spain",
+                    "isoCode2": "ES",
+                    "isoCode3": "ESP"
+                }
+            },
+            "isMinorAirport": "false"
+        },
+        {
+            "@type": "gaiaHotelResult",
+            "index": "4",
+            "hotelId": "1439964",
+            "type": "HOTEL",
+            "regionNames": {
+                "fullName": "Barcelona Airport Hotel, El Prat de Llobregat, Catalonia, Spain",
+                "shortName": "Barcelona Airport Hotel",
+                "displayName": "Barcelona Airport Hotel, El Prat de Llobregat, Catalonia, Spain",
+                "primaryDisplayName": "Barcelona Airport Hotel",
+                "secondaryDisplayName": "El Prat de Llobregat, Catalonia, Spain",
+                "lastSearchName": "Barcelona Airport Hotel"
+            },
+            "essId": {
+                "sourceName": "LCM",
+                "sourceId": "1439964"
+            },
+            "coordinates": {
+                "lat": "41.31796",
+                "long": "2.07424"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "isoCode3": "ESP"
+                }
+            },
+            "cityId": "179746",
+            "hotelAddress": {
+                "street": "Plaza de la Volateria, 3",
+                "city": "El Prat de Llobregat",
+                "province": ""
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "5",
+            "gaiaId": "6066981",
+            "type": "POI",
+            "regionNames": {
+                "fullName": "La Rambla, Barcelona, Catalonia, Spain",
+                "shortName": "La Rambla",
+                "displayName": "La Rambla, Barcelona, Catalonia, Spain",
+                "primaryDisplayName": "La Rambla",
+                "secondaryDisplayName": "Barcelona, Catalonia, Spain",
+                "lastSearchName": "La Rambla"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "6066981"
+            },
+            "coordinates": {
+                "lat": "41.38156930627923",
+                "long": "2.1730885791215924"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "Spain",
+                    "isoCode2": "ES",
+                    "isoCode3": "ESP"
+                }
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "6",
+            "gaiaId": "6003476",
+            "type": "NEIGHBORHOOD",
+            "regionNames": {
+                "fullName": "Barceloneta, Barcelona, Catalonia, Spain",
+                "shortName": "Barceloneta",
+                "displayName": "Barceloneta, Barcelona, Catalonia, Spain",
+                "primaryDisplayName": "Barceloneta",
+                "secondaryDisplayName": "Barcelona, Catalonia, Spain",
+                "lastSearchName": "Barceloneta"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "6003476"
+            },
+            "coordinates": {
+                "lat": "41.377543802338984",
+                "long": "2.190095055312243"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "Spain",
+                    "isoCode2": "ES",
+                    "isoCode3": "ESP"
+                }
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "7",
+            "gaiaId": "553248635612160808",
+            "type": "POI",
+            "regionNames": {
+                "fullName": "Port de Barcelona, Catalonia, Spain",
+                "shortName": "Port de Barcelona",
+                "displayName": "Port de Barcelona, Catalonia, Spain",
+                "primaryDisplayName": "Port de Barcelona",
+                "secondaryDisplayName": "Catalonia, Spain",
+                "lastSearchName": "Port de Barcelona"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "553248635612160808"
+            },
+            "coordinates": {
+                "lat": "41.33070173042766",
+                "long": "2.158475799162985"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "Spain",
+                    "isoCode2": "ES",
+                    "isoCode3": "ESP"
+                }
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "8",
+            "gaiaId": "507631",
+            "type": "POI",
+            "regionNames": {
+                "fullName": "Pla\u00e7a de Catalunya, Barcelona, Catalonia, Spain",
+                "shortName": "Pla\u00e7a de Catalunya",
+                "displayName": "Pla\u00e7a de Catalunya, Barcelona, Catalonia, Spain",
+                "primaryDisplayName": "Pla\u00e7a de Catalunya",
+                "secondaryDisplayName": "Barcelona, Catalonia, Spain",
+                "lastSearchName": "Pla\u00e7a de Catalunya"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "507631"
+            },
+            "coordinates": {
+                "lat": "41.38706026937106",
+                "long": "2.1699674133250917"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "Spain",
+                    "isoCode2": "ES",
+                    "isoCode3": "ESP"
+                }
+            }
+        },
+        {
+            "@type": "gaiaRegionResult",
+            "index": "9",
+            "gaiaId": "6046260",
+            "type": "NEIGHBORHOOD",
+            "regionNames": {
+                "fullName": "Eixample, Barcelona, Catalonia, Spain",
+                "shortName": "Eixample",
+                "displayName": "Eixample, Barcelona, Catalonia, Spain",
+                "primaryDisplayName": "Eixample",
+                "secondaryDisplayName": "Barcelona, Catalonia, Spain",
+                "lastSearchName": "Eixample"
+            },
+            "essId": {
+                "sourceName": "GAI",
+                "sourceId": "6046260"
+            },
+            "coordinates": {
+                "lat": "41.393689",
+                "long": "2.163655"
+            },
+            "hierarchyInfo": {
+                "country": {
+                    "name": "Spain",
+                    "isoCode2": "ES",
+                    "isoCode3": "ESP"
+                }
+            }
+        }
+    ]
+}

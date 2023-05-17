@@ -2,18 +2,14 @@ from telebot.handler_backends import State, StatesGroup
 
 
 
-class CityInformation(StatesGroup):
-    price_range = State()
-    date_range = State()
+class TravelInformation(StatesGroup):
     city = State()
-    hotel_count = State()
+    hotels = State()
     id_city = State()
     property_id = State()
     property_details = State()
+    upper_limit = State()
+    lower_limit = State()
+    check_in_date = State()
+    check_out_date = State()
 
-class UserInfoState(StatesGroup):
-    name = State()
-    age = State()
-    country = State()
-    city = State()
-    phone_number = State()

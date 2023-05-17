@@ -1,0 +1,17 @@
+{
+    "city": "Barcelona",
+    "hotel_count": 4,
+    "gaiaId": "513",
+    "upper_limit": 300,
+    "lower_limit": 200,
+    "check_in_date": {
+        "day": 15,
+        "month": 6,
+        "year": 23
+    },
+    "check_out_date": {
+        "day": 20,
+        "month": 6,
+        "year": 23
+    }
+}
